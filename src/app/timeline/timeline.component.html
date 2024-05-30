@@ -1,0 +1,208 @@
+<!-- <div class="timeline-container">
+    <button class="timeline-nav left" (click)="moveTimeline('left')">&lt;</button>
+    <p-timeline [value]="events" layout="horizontal" align="left">
+      <ng-template let-event pTemplate="content">
+        <div class="event-content" (click)="openFlipbook(event)">
+          <img [src]="event.image" alt="Event Image" style="width:10%;height:10%;">
+          <div class="event-text">{{ event.text }}</div>
+        </div>
+      </ng-template>
+    </p-timeline>
+    <button class="timeline-nav right" (click)="moveTimeline('right')">&gt;</button>
+  </div>
+  
+  <div class="timeline-container">
+    <button class="timeline-nav left" (click)="moveTimeline('left')">&lt;</button>
+    <p-timeline layout="horizontal" align="left">
+      <ng-template let-event pTemplate="content" *ngFor="let event of visibleEvents">
+        <div class="event-content" (click)="openFlipbook(event)">
+          <img [src]="event.image" alt="Event Image" style="width:10%;height:10%;">
+          <div class="event-text">{{ event.text }}</div>
+        </div>
+      </ng-template>
+    </p-timeline>
+    <button class="timeline-nav right" (click)="moveTimeline('right')">&gt;</button>
+  </div>   -->
+  <style>
+    .sliderArea .banners .slick-slide{
+      max-height: 700px;
+  }
+
+  .sliderArea .banners 
+  {
+  
+      ul.slick-dots {
+      list-style: none;
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      color: #fff !important;
+      right: 0;
+      bottom: 4px;
+      text-align: center;
+      padding: 0;
+      }
+      li button
+      {
+        border: solid 3px #fff;
+        border-radius: 50%;
+        color: white !important;
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        line-height: 0;
+        padding: 0;
+        cursor: pointer;
+        margin: 0 5px;
+        outline: none;
+        }
+        li.slick-active button {
+            background: #fff !important;
+        }
+  .prev_arrow {
+      left: 10px;
+      position: absolute;
+      display: block;
+      cursor: pointer;
+      top: 50%;
+      background-color: #fff;
+      z-index:1;
+      }
+  .next_arrow {
+      position: absolute;
+      display: block;
+      cursor: pointer;
+      top: 50%;
+      right: 10px;
+      background-color: #fff;
+      z-index:1;
+  }
+  
+  
+  
+    }
+  /* Dots */
+  
+  .slick-dotted .banners {
+      margin-bottom: 30px;
+  }
+  
+  </style>
+  
+<div class="sliderArea">    
+<div class="slider banners" style="margin-top: 125px;">
+     
+<div class="abc" style="width:50%;height:50%">
+  <div class="center-line-container">
+    <div class="horizontal-line"></div>
+    <div class="vertical-line"></div>
+    <div class="circle"></div>
+  </div>
+  
+  <div class="card">
+    <img src="../../assets/1.jpg" style="width:100%">
+    <h5>Latino Art on Campus</h5>
+    <p>Josè Orozco: “Found in the Dartmouth’s Baker Library, Orozco’s The Epic of American Civilization (1932-34) retells the standard eurocentric history of America from a story centered around Mesoamerica.</p>
+    <p><button type="button" (click)="myFunction('1');">Read More</button></p>
+  </div>
+  <div class="center-line-container">
+    <div class="horizontal-line-bottom"></div>
+    <div class="vertical-line-bottom"></div>
+    <div class="circle-bottom"></div>
+  </div>
+
+</div>
+
+<div class="abc" style="width:50%;height:50%">
+  <div class="center-line-container">
+    <div class="horizontal-line"></div>
+    <div class="vertical-line"></div>
+    <div class="circle"></div>
+  </div>
+  
+  <div class="card">
+    <img src="../../assets/1.jpg" style="width:100%">
+    <h5>Earliest Dartmouth production (c. 1779) </h5>
+    <p>It consists of two separate playlets-one entitled. "A "Dialogue Between an Englishman and an Indian ', date March 4, 1779 , the other, "A Little Teatable Chitchat, alamode:—or an ancient discovery reduced to modern practice.</p>
+    <p><button type="button"(click)="myFunction('2');">Read More</button></p>
+  </div>
+  <div class="center-line-container">
+    <div class="horizontal-line-bottom"></div>
+    <div class="vertical-line-bottom"></div>
+    <div class="circle-bottom"></div>
+  </div>
+
+</div>
+
+<div class="abc" style="width:50%;height:50%">
+  <div class="center-line-container">
+    <div class="horizontal-line"></div>
+    <div class="vertical-line"></div>
+    <div class="circle"></div>
+  </div>
+  
+  <div class="card">
+    <img src="../../assets/1.jpg" style="width:100%">
+    <h5>SLAVERY DURING DARTMOUTH’S FOUNDING & EARLY YEARS</h5>
+    <p>Stories of the founding of Dartmouth College often depict Eleazar Wheelock braving the wilderness as a pious pioneer of education. He had begun Christianizing indigenous people years earlier at the Moor’s Charity School in Connecticut, but he established the College in Hanover to educate “English youth and any others.” </p>
+    <p><button type="button" (click)="myFunction('3');">Read More</button></p>
+  </div>
+  <div class="center-line-container">
+    <div class="horizontal-line-bottom"></div>
+    <div class="vertical-line-bottom"></div>
+    <div class="circle-bottom"></div>
+  </div>
+</div>
+
+<div class="abc" style="width:50%;height:50%">
+  <div class="center-line-container">
+    <div class="horizontal-line"></div>
+    <div class="vertical-line"></div>
+    <div class="circle"></div>
+  </div>
+  
+  <div class="card">
+    <img src="../../assets/1.jpg" style="width:100%">
+    <h5>DARTMOUTH AND THE DEBATES ON SLAVERY</h5>
+    <p>
+      Dartmouth’s social and political debates over slavery reveal nuances within anti-slavery and pro-slavery thought.  Among those opposed to slavery, some advocated for citizenship and full equality for persons of African descent, while others sought their removal to the colony of Liberia, West Africa.
+    </p>
+    <p><button type="button" (click)="myFunction('4');">Read More</button></p>
+  </div>
+  <div class="center-line-container">
+    <div class="horizontal-line-bottom"></div>
+    <div class="vertical-line-bottom"></div>
+    <div class="circle-bottom"></div>
+  </div>
+</div>
+
+
+<div class="abc" style="width:50%;height:50%">
+  <div class="center-line-container">
+    <div class="horizontal-line"></div>
+    <div class="vertical-line"></div>
+    <div class="circle"></div>
+  </div>
+  
+  <div class="card">
+    <img src="../../assets/1.jpg" style="width:100%">
+    <h5>"SLAVERY IS WHAT IT IS; AND IT IS NOTHING ELSE" -NATHAN LORD</h5>
+    <p>
+      Dartmouth’s extended public engagement with slavery discourse through its alumni body further illustrates the distinction between radical abolitionist thought and reformist compromise.
+    </p>
+    <p><button type="button" (click)="myFunction('5');">Read More</button></p>
+  </div>
+  <div class="center-line-container">
+    <div class="horizontal-line-bottom"></div>
+    <div class="vertical-line-bottom"></div>
+    <div class="circle-bottom"></div>
+  </div>
+</div>
+</div>
+<div id="myModal" class="modal">
+  <span class="close" (click)="closeModal()">&times;</span>
+  <div  id="flipbook" class="flipbook">
+    <app-flipbook [pageTitle]="pageTitle" [pageData]="pageData"></app-flipbook>
+  </div>
+</div>
+</div>

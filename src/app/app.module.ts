@@ -17,7 +17,11 @@ import { BooksComponent } from './books/books.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";   
 import { TimelineModule } from "primeng/timeline"; 
-import { CardModule } from "primeng/card"; 
+import { CardModule } from "primeng/card";
+import { TestComponent } from './test/test.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { FlipbookComponent } from './flipbook/flipbook.component'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,10 @@ import { CardModule } from "primeng/card";
     ContactComponent,
     HistoryComponent,
     BooksComponent,
-    FooterComponent
+    FooterComponent,
+    TestComponent,
+    TimelineComponent,
+    FlipbookComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +47,7 @@ import { CardModule } from "primeng/card";
     VgBufferingModule,
     BrowserAnimationsModule,
     TimelineModule,
-    CardModule
+    CardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

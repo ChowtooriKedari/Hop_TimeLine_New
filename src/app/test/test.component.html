@@ -1,0 +1,27 @@
+<!-- <div class="container">
+    <button class="arrow arrow-left" (click)="prevSlide()">&#10094;</button>
+    <div class="carousel">
+      <div *ngFor="let item of items" class="item" [@enlargeOnHover]="item.state" (mouseenter)="onMouseEnter(item)" (mouseleave)="onMouseLeave(item)">
+        <a href="#" class="link">
+          <img src="../../assets/DartmouthLogo.jpg" alt="Item Image" class="image" />
+          <span>{{ item.name }}</span>
+        </a>
+      </div>
+    </div>
+    <button class="arrow arrow-right" (click)="nextSlide()">&#10095;</button>
+  </div>
+
+<div></div> -->
+
+<div style="margin-top:1%"> 
+</div>
+<p-timeline [value]="arr" layout="horizontal" align="left">
+  <ng-template pTemplate="content" let-event>
+  <div class="item" [@enlargeOnHover]="event.state" (mouseenter)="onMouseEnter(event)" (mouseleave)="onMouseLeave(event)">
+    <a href="#" class="link">
+      <img src="../../assets/DartmouthLogo.jpg" alt="Item Image" class="image" />
+      <span>{{ event.name }}</span>
+    </a>
+  </div>
+</ng-template>
+</p-timeline>
