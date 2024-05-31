@@ -12,6 +12,11 @@ export class AppComponent  implements OnInit {
   name = 'Jquery Integration With Angular!';  
   isJqueryWorking: any;  
   title = 'hop_timeline_Project';
+  isVisible = false;
+
+  closePopup() {
+    this.isVisible = false;
+  }
   dataItems: any[] = [
     {
       name: 'name',

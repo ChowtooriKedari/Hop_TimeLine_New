@@ -1,5 +1,13 @@
 <style>
 </style>
+
+<div class="popup-overlay" *ngIf="isVisible">
+  <div class="popup-content">
+    <h1>Site Under Development</h1>
+    <p>We are currently working on the site. Please check back later.</p>
+    <button (click)="closePopup()">Close</button>
+  </div>
+</div>
 <header data-directional-scroll-reveal="true" data-sticky-container="" 
 class="site-header sticky--scrolling-up">
     <div class="header-main">
@@ -19,7 +27,6 @@ class="site-header sticky--scrolling-up">
     <li class="first expanded menu-mlid-3332 menu__top-level has-ul">
     <span class="dropmenu-toggle">Live Events</span>
    </li>
-`
 <li class="expanded menu-mlid-3333 menu__top-level has-ul"><span class="dropmenu-toggle">Film</span>
 </li>
 <li class="expanded menu-mlid-3334 menu__top-level has-ul"><span class="dropmenu-toggle">Students</span>

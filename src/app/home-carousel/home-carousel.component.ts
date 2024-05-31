@@ -28,8 +28,8 @@ export class HomeCarouselComponent implements OnInit, AfterViewInit {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             infinite: true,
             dots: true
           }
@@ -58,29 +58,5 @@ export class HomeCarouselComponent implements OnInit, AfterViewInit {
     {img: "./assets/3.jpg"},
     {img: "./assets/1.jpg"}
   ];
-  slideConfig = {"slidesToShow": 1, "slidesToScroll": 1, "infinite": true,
-  "dots": true,
-  "autoplay": true,
-  "autoplaySpeed": 2000  };
-    
-  addSlide() {
-    this.slides.push({img: "http://placehold.it/350x150/777777"})
-  }
-  
-  removeSlide() {
-    this.slides.length = this.slides.length - 1;
-  }
-  
-  slickInit(e:any) {
-  }
-  
-  breakpoint(e:any) {
-  }
-  
-  afterChange(e:any) {
-  }
-  
-  beforeChange(e:any) {
-  }
 }
 
