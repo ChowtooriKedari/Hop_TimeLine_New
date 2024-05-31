@@ -41,7 +41,7 @@ export class TimelineComponent implements OnInit {
       dots: true,
       infinite: true,
       speed: 300,
-      slidesToShow: 3, // Adjusted to show 3 slides at once
+      slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: false,
       arrows: true,

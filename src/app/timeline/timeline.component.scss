@@ -64,7 +64,7 @@
 }
 
 .vertical-line-bottom {
-  margin-top: -5.5em;
+  margin-top: -3.5em;
 }
 
 .circle, .circle-bottom {
@@ -93,6 +93,24 @@
   margin: auto;
   text-align: center;
   font-family: arial;
+  max-height: 500px;
+}
+
+.card .heading{
+  padding:10px;
+  font-size: 20px;
+}
+
+.card .subText{
+  font-size: 12px;
+  text-align:justify; 
+  padding:5px;
+  height:250px;
+}
+
+.card .readmore
+{
+  margin-bottom:0;
 }
 
 .price {

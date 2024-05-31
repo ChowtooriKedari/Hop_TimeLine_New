@@ -45,7 +45,7 @@ export class FlipbookComponent implements OnInit, OnDestroy, OnChanges, AfterVie
         setTimeout(() => {
           this.cdr.detectChanges();
            this.initializeFlipbook();
-        }, 5000);
+        }, 1000);
       }
     }
   }
@@ -57,12 +57,12 @@ export class FlipbookComponent implements OnInit, OnDestroy, OnChanges, AfterVie
         width: 550,
         height: 733,
         minWidth: 315,
-        maxWidth: 1000,
+        maxWidth: 900,
         minHeight: 420,
         maxHeight: 1350,
         maxShadowOpacity: 0.5,
         showCover: true,
-        mobileScrollSupport: true
+        mobileScrollSupport: false
         }
     );
   }
