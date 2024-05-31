@@ -347,6 +347,42 @@ export class TimelineComponent implements OnInit {
         }
       ];
     }
+    else if (data === '6') {
+      this.pageTitle="Latino Art on Campus";
+      this.pageData = [
+            {
+              "header": "Latino Art on Campus",
+              "image": "./assets/nativeartspaper.jpg",
+              "text": "First, March 4, 1779: The first theater production at Dartmouth was titled “A Dialogue between an Englishman and an Indian.” It was spearheaded by Professor John Smith who taught “Greek, Latin, Hebrew and Oriental Languages.” Professor Smith’s script for the play made a Native American character call himself “uncultivated and unpolished.” His screenplay characterizes Native Americans as “savages” and “cruel people.” Such a portrayal reflects the prevalent prejudice against the Native Americans at Dartmouth and sentiments of European chauvinism. Early Dartmouth’s theater scene was a brainchild of charged sentiments of caucasian supremacy."+
+              "The Dartmouth Alumni Magazine covered this production as early as 1921 reporting on a previous article by John A. Bellows of the class of 1870. The article plainly reported on the screenplay without much commentary on the representation of Native Americans in the play. The play is presented as a glorious first and not precisely condemned for its hijacking of Native American identity."
+             },
+             {
+              "header": "Red Thunder Native Dance Theater, 1816",
+              "image": "",
+              "text": ""
+              },
+             {
+              "header": "Tide changes, March 16, 1973",
+              "image": "./assets/petersmith.png",
+              "text": "Two centuries after the first appearance of Native Americans in Arts on campus, a set of letters from Peter Smith who worked at the Hopkins Center for the Arts foreshadow a more positive future. The letter shown here was set to a Stu Tonemah with President Kemeny copied on it. The letter discusses the Hop’s willingness and hope to host Native American artists. The letter outlines the Hop’s ambition of hosting a Native American for each of the three terms. Further, Peter Smith lays down other prospective Native American art events that can be hosted by the Hop. Such a vast breadth of prospective events reflects a willingness for change and growing positive representation of Native Americans on campus. This moment also signifies the agency that Native American artists had won for themselves through the verve of their art and the rigor of their struggle."
+             },
+             {
+              "header": "Allan Houser, 1979",
+              "image": "./assets/allenhouser.png",
+              "text": "Native American history has been one of oppression, attempted annihilation and destruction of cultural markers. Such a fraught memory has informed Native American art since the start of the colonial period. Allan C. Houser, the artist-in-residence at the Hopkins Center for the year 1979, represents such an instance of an artist shining through their life of resistance to oppression. A group of Chiricahua tribe members were imprisoned for staging a resistance movement in 1886. One of the first Chiricahua tribe members born out of captivity was Allan C. Houser. Houser’s modernist sculpting work captured sensibilities nationally and marked a moment of robust Native American agency in art. Allan C. Houser’s residency on campus lives past his life as one of his sculpture’s called Peaceful Serenity stands on the lawn in front of the Native American Studies Program Building."
+            },
+            {
+              "header": "Alanis Obamsawin, 1988",
+              "image": "",
+              "text": "Alanis Obamsawin is a filmmaker of Abenaki origin who shot her film “A Way of Learning” on campus in 1988 documenting the lives of Native American students on campus. The film was co-produced by the Native American Council of Dartmouth College and supported by Professor Bruce Duthu. TBD upon access to film footage."
+            },
+            {
+              "header": "Kent Monkman At the Hood, April 8 – December 16, 2023",
+              "image": "./assets/kentmonkman.png",
+              "text": "Cree artist Kent Monkman was hosted at the Hood Museum of the Art in 2023. Monkman’s work is a sharp, pointed and glorious monument of Native American agency. Presented through the style of Modernist Abstraction, Monkman’s work shines at the intersection of the Native American identity and queerness. The Hood Museum also commissioned two works from him for their permanent collection. Monkman’s exhibition represents a moment for Native American arts on campus that gives voice to the Native American identity and is fearless in its execution. It is the reclaimed agency that sticks out both in his work and the presentation of it on campus."
+            },
+          ];
+        }
     this.modal.style.display = "flex";
     this.dataReady.emit(this.pageData);
   }
