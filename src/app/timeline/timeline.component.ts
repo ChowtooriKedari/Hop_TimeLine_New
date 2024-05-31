@@ -348,10 +348,10 @@ export class TimelineComponent implements OnInit {
       ];
     }
     else if (data === '6') {
-      this.pageTitle="Latino Art on Campus";
+      this.pageTitle="Native American Presence in Arts on Campus";
       this.pageData = [
             {
-              "header": "Latino Art on Campus",
+              "header": "Native American Presence in Arts on Campus",
               "image": "./assets/nativeartspaper.jpg",
               "text": "First, March 4, 1779: The first theater production at Dartmouth was titled “A Dialogue between an Englishman and an Indian.” It was spearheaded by Professor John Smith who taught “Greek, Latin, Hebrew and Oriental Languages.” Professor Smith’s script for the play made a Native American character call himself “uncultivated and unpolished.” His screenplay characterizes Native Americans as “savages” and “cruel people.” Such a portrayal reflects the prevalent prejudice against the Native Americans at Dartmouth and sentiments of European chauvinism. Early Dartmouth’s theater scene was a brainchild of charged sentiments of caucasian supremacy."+
               "The Dartmouth Alumni Magazine covered this production as early as 1921 reporting on a previous article by John A. Bellows of the class of 1870. The article plainly reported on the screenplay without much commentary on the representation of Native Americans in the play. The play is presented as a glorious first and not precisely condemned for its hijacking of Native American identity."
