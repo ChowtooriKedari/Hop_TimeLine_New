@@ -7,6 +7,16 @@
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
     display: flex;
     background-size: cover;
+    width: 20rem !important;
+    height: 40rem !important;
+    min-Width: 13rem !important;
+    max-Width: 50rem !important;
+    min-Height: 35rem !important;
+    max-Height: 65rem !important;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 20%;
+    margin-bottom: 10%;
   }
   
   .page {

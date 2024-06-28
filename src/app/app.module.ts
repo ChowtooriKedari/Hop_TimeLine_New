@@ -21,6 +21,7 @@ import { CardModule } from "primeng/card";
 import { TestComponent } from './test/test.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { FlipbookComponent } from './flipbook/flipbook.component'; 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { FlipbookComponent } from './flipbook/flipbook.component';
     BrowserAnimationsModule,
     TimelineModule,
     CardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Dosis:200,600);
+    *, *:after, *:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .clearfix:before, .clearfix:after {
+      content: " ";
+      display: table;
+    }
+
+    .clearfix:after {
+      clear: both;
+    }
+
+    a {
+      color: #f0f0f0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #FFF;
+    }
+
+    .codrops-top {
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1000;
+      font-size: 0.68em;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      line-height: 2.2;
+    }
+
+    .codrops-top a {
+      padding: 0 1em;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.2);
+      display: inline-block;
+    }
+
+    .codrops-top a:hover {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .codrops-top span.right {
+      float: right;
+    }
+
+    .codrops-top span.right a {
+      float: left;
+      display: block;
+    }
+
+    .os-phrases h2 {
+      z-index:5;
+      font-family: "Dosis", "Lato", sans-serif;
+      font-size: 2rem;
+      font-weight: 200;
+      width: 100%;
+      overflow: hidden;
+      word-wrap: break-word;
+      word-break: break-all; /* Ensure long sentences break into a new line */
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      letter-spacing: 0.2rem;
+      text-align: center;
+      opacity: 0;
+      white-space: normal; /* Allow text to wrap normally */
+    }
+
+    .os-phrases h2,
+    .os-phrases h2 > span {
+      height: 100%;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    .os-phrases h2 > span {
+      margin: 0 0.3rem;
+    }
+
+    .os-phrases h2 > span > span {
+      display: inline-block;
+      -webkit-perspective: 62.5rem;
+      -moz-perspective: 62.5rem;
+      perspective: 62.5rem;
+      -webkit-transform-origin: 50% 50%;
+      -moz-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+    }
+
+    .os-phrases h2 > span > span > span {
+      display: inline-block;
+      color: rgba(43, 194, 23, 0);
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-animation: OpeningSequence 5.2s linear forwards;
+      -moz-animation: OpeningSequence 5.2s linear forwards;
+      animation: OpeningSequence 5.2s linear forwards;
+    }
+
+    .os-phrases h2:nth-child(2) > span > span > span {
+      -webkit-animation-delay: 5s;
+      -moz-animation-delay: 5s;
+      animation-delay: 5s;
+    }
+
+    .os-phrases h2:nth-child(3) > span > span > span {
+      -webkit-animation-delay: 10s;
+      -moz-animation-delay: 10s;
+      animation-delay: 10s;
+    }
+
+    .os-phrases h2:nth-child(4) > span > span > span {
+      -webkit-animation-delay: 15s;
+      -moz-animation-delay: 15s;
+      animation-delay: 15s;
+    }
+
+    .os-phrases h2:nth-child(5) > span > span > span {
+      -webkit-animation-delay: 21s;
+      -moz-animation-delay: 21s;
+      animation-delay: 21s;
+      -webkit-animation-duration: 8s;
+      -moz-animation-duration: 8s;
+      animation-duration: 8s;
+    }
+
+    .os-phrases h2:nth-child(6) > span > span > span {
+      -webkit-animation-delay: 30s;
+      -moz-animation-delay: 30s;
+      animation-delay: 30s;
+    }
+
+    .os-phrases h2:nth-child(7) > span > span > span {
+      -webkit-animation-delay: 34s;
+      -moz-animation-delay: 34s;
+      animation-delay: 34s;
+    }
+
+    @-webkit-keyframes OpeningSequence {
+      0% {
+        text-shadow: 0 0 3.125rem #FFF;
+        letter-spacing: 5rem;
+        opacity: 0;
+        -webkit-transform: rotateY(-90deg);
+      }
+      50% {
+        text-shadow: 0 0 0.0625rem #FFF;
+        letter-spacing: 0.875rem;
+        opacity: 0.8;
+        -webkit-transform: rotateY(0deg);
+      }
+      85% {
+        text-shadow: 0 0 0.0625rem #FFF;
+        opacity: 0.8;
+        -webkit-transform: rotateY(0deg) translateZ(6.25rem);
+      }
+      100% {
+        text-shadow: 0 0 0.625rem #FFF;
+        opacity: 0;
+        -webkit-transform: translateZ(8.125rem);
+        pointer-events: none;
+      }
+    }
+    @-moz-keyframes OpeningSequence {
+      0% {
+        text-shadow: 0 0 3.125rem #FFF;
+        letter-spacing: 5rem;
+        opacity: 0.2;
+        -moz-transform: rotateY(-90deg);
+      }
+      50% {
+        text-shadow: 0 0 0.0625rem #FFF;
+        letter-spacing: 0.875rem;
+        opacity: 0.8;
+        -moz-transform: rotateY(0deg);
+      }
+      85% {
+        text-shadow: 0 0 0.0625rem #FFF;
+        opacity: 0.8;
+        -moz-transform: rotateY(0deg) translateZ(6.25rem);
+      }
+      100% {
+        text-shadow: 0 0 0.625rem #FFF;
+        opacity: 0;
+        -moz-transform: translateZ(8.125rem);
+        pointer-events: none;
+      }
+    }
+    @keyframes OpeningSequence {
+      0% {
+        text-shadow: 0 0 3.125rem #FFF;
+        letter-spacing: 5rem;
+        opacity: 0.2;
+        transform: rotateY(-90deg);
+      }
+      50% {
+        text-shadow: 0 0 0.0625rem #FFF;
+        letter-spacing: 0.875rem;
+        opacity: 0.8;
+        transform: rotateY(0deg);
+      }
+      85% {
+        text-shadow: 0 0 0.0625rem #FFF;
+        opacity: 0.8;
+        transform: rotateY(0deg) translateZ(6.25rem);
+      }
+      100% {
+        text-shadow: 0 0 0.625rem #FFF;
+        opacity: 0;
+        transform: translateZ(8.125rem);
+        pointer-events: none;
+      }
+    }
+    .os-phrases h2:nth-child(8) > span > span > span {
+      font-size: 2rem;
+      -webkit-animation: FadeIn 4s linear 40s forwards;
+      -moz-animation: FadeIn 4s linear 40s forwards;
+      animation: FadeIn 4s linear 40s forwards;
+    }
+
+    @-webkit-keyframes FadeIn {
+      0% {
+        opacity: 0;
+        text-shadow: 0 0 3.125rem #FFF;
+      }
+      100% {
+        opacity: 0.8;
+        text-shadow: 0 0 0.0625rem #FFF;
+      }
+    }
+    @-moz-keyframes FadeIn {
+      0% {
+        opacity: 0;
+        text-shadow: 0 0 3.125rem #FFF;
+      }
+      100% {
+        opacity: 0.8;
+        text-shadow: 0 0 0.0625rem #FFF;
+      }
+    }
+    @keyframes FadeIn {
+      0% {
+        opacity: 0;
+        text-shadow: 0 0 3.125rem #FFF;
+      }
+      100% {
+        opacity: 0.8;
+        text-shadow: 0 0 0.0625rem #FFF;
+      }
+    }
+    .os-phrases h2:first-child .word3,
+    .os-phrases h2:nth-child(2) .word2,
+    .os-phrases h2:nth-child(4) .word2 {
+      color:rgb(255, 136, 0);
+      font-weight: 600;
+    }
+
+
+    @media (max-width: 992px) {
+      .os-phrases h2 {
+        font-size: 1.6rem !important;
+        letter-spacing: 0.313rem;
+      }
+      .os-phrases h2:nth-child(8) > span > span > span {
+          font-size: 1.5rem !important;
+        }
+    }
+
+    @media (max-width: 768px) {
+      .os-phrases h2 {
+        font-size: 1.4rem !important;
+        letter-spacing: 0.25rem;
+      }
+      .os-phrases h2:nth-child(8) > span > span > span {
+          font-size: 1.5rem !important;
+        }
+    }
+
+    @media (max-width: 576px) {
+      .os-phrases h2 {
+        font-size: 1.2rem !important;
+        letter-spacing: 0.125rem;
+      }
+      .os-phrases h2:nth-child(8) > span > span > span {
+          font-size: 1.5rem !important;
+        }
+    }
+
+    @media (max-width: 300px) {
+      .os-phrases h2 {
+        font-size: 1rem !important;
+        letter-spacing: 0.125rem;
+      }
+      .os-phrases h2:nth-child(8) > span > span > span {
+          font-size: 1.5rem !important;
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class="os-phrases" id="os-phrases">
+    <h2>Unlock Timeless Masterpieces</h2>
+    <h2>Explore Artistic Genius</h2>
+    <h2>Witness Creative Power</h2>
+    <h2>Discover Art's Stories</h2>
+    <h2>Legacy of Visionary Artists</h2>
+    <h2>Revolutionary Art Movements</h2>
+    <h2>Unveil Hidden Meanings</h2>
+    <h2>THE DARTMOUTH ART HISTORY</h2>
+    <!-- <h2>Discover the rich legacy of art history at Dartmouth College</h2>
+    <h2>Where creativity and scholarship have flourished for generations.</h2>
+    <h2>Explore the profound history of artistic exploration</h2>
+    <h2>Showcasing masterpieces that define artistic heritage.</h2>
+    <h2>A tradition of innovation and excellence</h2>
+    <h2>Preserving and celebrating the stories behind the art.</h2>
+    <h2>Experience the art that shapes Dartmouth</h2>
+    <h2>A legacy that continues to inspire and captivate.</h2> -->
+  </div>
+  <audio id="background-music" src="../assets/music.mp3"></audio>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      function animatePhrases() {
+        const phrases = document.querySelectorAll("#os-phrases > h2");
+        phrases.forEach(phrase => {
+          phrase.style.opacity = 1;
+          phrase.innerHTML = phrase.innerHTML.split(' ').map(word => `<span>${word}</span>`).join(' ');
+          phrase.querySelectorAll('span').forEach(span => {
+            span.innerHTML = span.innerHTML.split('').map(char => `<span>${char}</span>`).join('');
+          });
+        });
+      }
+
+      // Run the animation initially
+      animatePhrases();
+
+      // Set the interval to repeat the animation
+      setInterval(() => {
+        const phrases = document.querySelectorAll("#os-phrases > h2");
+        phrases.forEach(phrase => {
+          // Reset the innerHTML and opacity
+          phrase.style.opacity = 0;
+          const originalText = phrase.textContent;
+          phrase.innerHTML = originalText;
+        });
+        // Delay before re-animating
+        setTimeout(animatePhrases, 50);
+      }, 50000); // Adjust the interval as needed, ensure it's longer than the total animation duration
+    });
+  </script>
+</body>
+</html>

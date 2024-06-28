@@ -12,10 +12,10 @@
   </div>
 </ngx-slick-carousel> -->
 <style>
-  .sliderArea .banners .slick-slide{
+  .introSliderArea .banners .slick-slide{
     max-height: 400px;
 }
-.sliderArea .banners 
+.introSliderArea .banners 
 {
 
     ul.slick-dots {
@@ -73,16 +73,42 @@
 .slick-dotted .banners {
     margin-bottom: 30px;
 }
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('./../../assets/1.jpg');
+  min-height:max-content;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("./../../assets/1.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 { 
+  background-image: url("./../../assets/1.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
 </style>
-<div class="sliderArea" style="height:100%">
-<div class="slider banners" style="margin-top: 125px;">
-  <div><img src="./assets/1.jpg" alt="" width="100%" /></div>
-  <div><img src="./assets/3.jpg" alt="" width="100%" /></div>
-  <div><img src="./assets/1.jpg" alt="" width="100%" /></div>
-  <div><img src="./assets/2.jpeg" alt="" width="100%" /></div>
-</div>
-
 <div class="uspArea">
   <div class="contentWrap">
       <div class="usp">
@@ -123,6 +149,38 @@
     </div>
   </div>
 </div>
+<div class="introSliderArea" style="height:100%">
+<div class="slidernew banners">
+  <div><img src="./assets/1.jpg" alt="" width="100%" /></div>
+  <div><img src="./assets/3.jpg" alt="" width="100%" /></div>
+  <div><img src="./assets/1.jpg" alt="" width="100%" /></div>
+  <div><img src="./assets/2.jpeg" alt="" width="100%" /></div>
 </div>
 
-<app-contact></app-contact>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Text</span><br>
+Some Text goes here
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Text</span><br>
+Some Text goes here
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Text</span><br>
+Some Text goes here
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Text</span><br>
+Some Text goes here
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">THE ART HISTORY</span>
+  </div>
+</div>

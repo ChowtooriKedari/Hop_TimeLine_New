@@ -42,7 +42,8 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/slick-carousel/slick/slick.min.js",
-              "node_modules/page-flip/dist/js/page-flip.browser.js"
+              "node_modules/page-flip/dist/js/page-flip.browser.js",
+              "node_modules/letteringjs/jquery.lettering.js"
             ]
           },
           "configurations": {

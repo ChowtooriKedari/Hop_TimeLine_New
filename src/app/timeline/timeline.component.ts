@@ -39,32 +39,29 @@ export class TimelineComponent implements OnInit {
     // Initialize Slick Slider
     $('.slider').slick({
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 300,
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: false,
       arrows: true,
-      centerMode: true,
-      prevArrow: '<span class="prev_arrow"><img src="./assets/arrow-bar-left.svg" alt="left arrow icon"></span>',
-      nextArrow: '<span class="next_arrow"><img src="./assets/arrow-bar-right.svg" alt="right arrow icon"></span>',
+      centerMode: false,
+      prevArrow: '<span class="prev_arrow"><i class="bi bi-arrow-bar-left"></i></span>',
+      nextArrow: '<span class="next_arrow"><i class="bi bi-arrow-bar-right"></i></span>',
       responsive: [
         {
           breakpoint: 1200,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 4,
-            infinite: true,
-            dots: true
           }
         },
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            slidesToShow: 2,
+            slidesToScroll: 2,
+
           }
         },
         {
@@ -72,8 +69,6 @@ export class TimelineComponent implements OnInit {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            infinite: true,
-            dots: true
 
           }
         },
@@ -82,8 +77,6 @@ export class TimelineComponent implements OnInit {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            infinite: true,
-            dots: true
 
           }
         }
@@ -92,6 +85,7 @@ export class TimelineComponent implements OnInit {
   }
 
   myFunction(data: string): void {
+    console.log("Read");
     var flipbook = document.getElementById("flipbook");
     if (data === '1') {
   this.pageTitle="Latino Art on Campus";

@@ -14,8 +14,8 @@ export class HomeCarouselComponent implements OnInit, AfterViewInit {
   }
   ngOnInit(): void {
     console.log('AB');
-    $('.slider').slick({
-      dots: true,
+    $('.slidernew').slick({
+      dots: false,
       infinite: true,
       speed: 300,
       slidesToShow: 1,
@@ -37,8 +37,8 @@ export class HomeCarouselComponent implements OnInit, AfterViewInit {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         },
         {

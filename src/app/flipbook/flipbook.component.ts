@@ -54,15 +54,17 @@ export class FlipbookComponent implements OnInit, OnDestroy, OnChanges, AfterVie
     return new PageFlip(
       this.flipbookContainer.nativeElement,
       {
-        width: 550,
-        height: 733,
-        minWidth: 315,
-        maxWidth: 900,
+        width: 350,
+        height: 600,
+        minWidth: 200,
+        maxWidth: 700,
         minHeight: 420,
-        maxHeight: 1350,
+        maxHeight: 1100,
         maxShadowOpacity: 0.5,
         showCover: true,
-        mobileScrollSupport: false
+        mobileScrollSupport: false,
+        autoSize:true,
+        usePortrait:true
         }
     );
   }

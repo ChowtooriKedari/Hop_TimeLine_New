@@ -36,7 +36,6 @@
       position: absolute;
       margin: 0 auto;
       left: 0;
-      color: #fff !important;
       right: 0;
       bottom: 4px;
       text-align: center;
@@ -44,9 +43,7 @@
       }
       li button
       {
-        border: solid 3px #fff;
         border-radius: 50%;
-        color: white !important;
         font-size: 0;
         width: 15px;
         height: 15px;
@@ -56,27 +53,25 @@
         margin: 0 5px;
         outline: none;
         }
-        li.slick-active button {
-            background: #fff !important;
-        }
+        /* li.slick-active button {
+        } */
   .prev_arrow {
-      left: 10px;
+      left: -0.3em;
       position: absolute;
       display: block;
       cursor: pointer;
       top: 50%;
-      background-color: #fff;
       z-index:1;
+      font-size: 2em;
       }
   .next_arrow {
       position: absolute;
       height:30px;
-      width:30px;
+      font-size: 2em;
       display: block;
       cursor: pointer;
       top: 50%;
-      right: 10px;
-      background-color: #fff;
+      right: -0.3em;
       z-index:1;
   }  
 }
@@ -86,8 +81,84 @@
       margin-bottom: 30px;
   }
   
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#003C73, #003C73 50%,#F5DC69);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: #003C73 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
   </style>
-  
+  <div class="w3-container w3-light-grey" style="padding:60px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>Native American Presence in Arts on Campus</h3>
+        <p>March 4, 1779: The first theater production at Dartmouth was titled “A Dialogue between an Englishman and an Indian.” It was spearheaded by Professor John Smith who taught “Greek, Latin, Hebrew and Oriental Languages.” Professor Smith’s script for the play made a Native American character call himself “uncultivated and unpolished.” His screenplay characterizes Native Americans as “savages” and “cruel people.”    </p>
+          <p class="w3-button w3-black" (click)="myFunction('6');"> Read More</p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="../../assets/kentmonkman.png" alt="Buildings" width="700" height="394">
+      </div>
+  </div>
+  <!-- <div class="w3-container w3-light-grey" style="padding:60px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="../../assets/kentmonkman.png" alt="Buildings" width="700" height="394">
+      </div>
+      <div class="w3-col m6">
+        <h3>Native American Presence in Arts on Campus</h3>
+        <p>March 4, 1779: The first theater production at Dartmouth was titled “A Dialogue between an Englishman and an Indian.” It was spearheaded by Professor John Smith who taught “Greek, Latin, Hebrew and Oriental Languages.” Professor Smith’s script for the play made a Native American character call himself “uncultivated and unpolished.” His screenplay characterizes Native Americans as “savages” and “cruel people.”    </p>
+          <p class="w3-button w3-black" (click)="myFunction('6');"> Read More</p>
+      </div>
+
+    </div>
+</div> -->
+
+    <!-- HTML !-->
+<!-- <button class="button-64" role="button"><span class="text">Button 64</span></button> -->
+
 <div class="sliderArea">    
 <div class="slider banners" style="margin-top: 125px;">
      
@@ -220,7 +291,7 @@
 </div>
 </div>
 <div id="myModal" class="modal">
-  <span class="close" (click)="closeModal()">&times;</span>
+  <span class="close" (click)="closeModal()"><i class="bi bi-x-circle"></i></span>
   <div  id="flipbook" class="flipbook">
     <app-flipbook [pageTitle]="pageTitle" [pageData]="pageData"></app-flipbook>
   </div>
