@@ -375,6 +375,12 @@ export class TimelineComponent implements OnInit {
               "image": "./assets/kentmonkman.png",
               "text": "Cree artist Kent Monkman was hosted at the Hood Museum of the Art in 2023. Monkman’s work is a sharp, pointed and glorious monument of Native American agency. Presented through the style of Modernist Abstraction, Monkman’s work shines at the intersection of the Native American identity and queerness. The Hood Museum also commissioned two works from him for their permanent collection. Monkman’s exhibition represents a moment for Native American arts on campus that gives voice to the Native American identity and is fearless in its execution. It is the reclaimed agency that sticks out both in his work and the presentation of it on campus."
             },
+            {
+              "header": "Kent Monkman At the Hood, April 8 – December 16, 2023",
+              "image": "./assets/MaliObomsawin.png",
+              "text": "Native American artists have achieved inter-generational presence in Dartmouth’s artistic planes. Mali Obamsawin, Alanis Obamsawin’s daughter, will be collaborating with Jake Blount for a summer concert performance on The Green. Mali Obomsawin infuses free jazz and experimental music with the spirit of Indigenous traditions. Obomsawin is an alumna of the Coast Jazz Orchestra at Dartmouth and has continued her artistic relationship as an independent artist with Dartmouth. "
+            }
+
           ];
         }
     this.modal.style.display = "flex";

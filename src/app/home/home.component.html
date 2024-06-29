@@ -1,179 +1,179 @@
 
-
 <style>
-    /* body, h1, h2, h3, h4, h5, h6 {
-        font-family: "Lato", sans-serif;
-    } */
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; /* Ensure the div takes full width of the viewport */
+}
 
-    /* Create a Parallax Effect */
+.bgimg-1 {
+    background-image: url('./../../assets/intro.png');
+    height: 100vh; /* Full viewport height */
+    position: relative; /* Ensure the absolute positioned elements are relative to this */
+}
+
+.bgimg-1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+    z-index: 1;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("./../../assets/1.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("./../../assets/1.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+.arrow-container {
+    position: absolute;
+    bottom: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.arrow {
+    font-size: 50px; /* Adjust the size as needed */
+    color: white;
+    transition: transform 0.2s;
+    z-index: 5;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+.arrow:active {
+    transform: scale(1);
+}
+
+.ripple {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 100%;
+    opacity: 0;
+    animation: ripple-animation 2s infinite;
+}
+
+.custom-ui {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: rgba(0, 60, 115, 0.7); /* RGB equivalent of #003c73 with 80% opacity */
+    color: white;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 1em;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 0.0625rem solid #fff;
+    width: auto;
+    mix-blend-mode: multiply;
+}
+
+.custom-ui .icon {
+    margin-right: 0.5em;
+}
+
+.custom-ui p {
+    margin: 1em;
+    display: block;
+    word-wrap: break-word;
+}
+
+@keyframes ripple-animation {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+    }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1600px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-    }
-
-    .bgimg-1 {
-        background-image: url('./../../assets/image.png');
-        height: 100vh; /* Full viewport height */
-    }
-
-    .bgimg-1:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.8));
-      z-index: 1;
-    }
-
-    /* Second image (Portfolio) */
-    .bgimg-2 {
-        background-image: url("./../../assets/1.jpg");
         min-height: 400px;
-    }
-
-    /* Third image (Contact) */
-    .bgimg-3 {
-        background-image: url("./../../assets/1.jpg");
-        min-height: 400px;
-    }
-
-    .w3-wide {
-        letter-spacing: 10px;
-    }
-
-    .w3-hover-opacity {
-        cursor: pointer;
-    }
-
-    .arrow-container {
-        position: absolute;
-        bottom: 5em;
-        left: 50%;
-        transform: translateX(-50%);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 5;
-    }
-
-    .arrow {
-        font-size: 50px; /* Adjust the size as needed */
-        color: white;
-        transition: transform 0.2s;
-        z-index: 5;
-    }
-
-    .arrow:hover {
-        transform: scale(1.2);
-    }
-
-    .arrow:active {
-        transform: scale(1);
-    }
-
-    .ripple {
-        position: absolute;
-        border: 2px solid white;
-        border-radius: 100%;
-        opacity: 0;
-        animation: ripple-animation 2s infinite;
-    }
-
-    .custom-ui {
-        display: inline-block;
-        padding: 1em 2em;
-        background-color: rgba(0, 60, 115, 0.7); /* RGB equivalent of #003c73 with 80% opacity */
-        color: white;
-        border-radius: 5px;
-        text-align: justify;
-        font-size: 1em;
-        position: relative;
-        z-index: 1;
         max-width: 100%;
-        word-wrap: break-word;
-        margin:0 auto;
-        box-sizing: border-box;
-        border: 0.0625rem solid #fff;
-        width: auto;
-        mix-blend-mode: multiply;
     }
+}
 
-    .custom-ui .icon {
-        margin-right: 0.5em;
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .custom-ui {
+        font-size: 0.9em;
+        padding: 0.8em 1.6em;
     }
+    .arrow {
+        font-size: 40px;
+    }
+}
 
-    .custom-ui p {
-        margin:1em;
-        display: block;
-        word-wrap: break-word;
+@media only screen and (max-width: 480px) {
+    .custom-ui {
+        font-size: 0.8em;
+        padding: 0.6em 1.2em;
+        margin: 0 auto;
     }
+    .arrow {
+        font-size: 30px;
+    }
+}
 
-    @keyframes ripple-animation {
-        0% {
-            width: 0;
-            height: 0;
-            opacity: 1;
-        }
-        100% {
-            width: 100px;
-            height: 100px;
-            opacity: 0;
-        }
-    }
+#htmlContainer {
+    z-index: 5;
+}
 
-    /* Turn off parallax scrolling for tablets and phones */
-    @media only screen and (max-width: 1600px) {
-        .bgimg-1, .bgimg-2, .bgimg-3 {
-            background-attachment: scroll;
-            min-height: 400px;
-        }
-    }
-
-    /* Responsive adjustments */
-    @media only screen and (max-width: 768px) {
-        .custom-ui {
-            font-size: 0.9em;
-            padding: 0.8em 1.6em;
-        }
-        .arrow {
-            font-size: 40px;
-        }
-    }
-
-    @media only screen and (max-width: 480px) {
-        .custom-ui {
-            font-size: 0.8em;
-            padding: 0.6em 1.2em;
-            margin:0 auto;
-        }
-        .arrow {
-            font-size: 30px;
-        }
-    }
-    #htmlContainer{
-        z-index:5;
-    }
 
 </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-        <!-- <div class="w3-display-middle" style="white-space:nowrap;">
-            <div class="custom-ui">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
-                <p>and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div>
-        </div>  -->
         <div #htmlContainer></div>
-
         <div class="arrow-container" (click)="scrollDown()">
             <i class="bi bi-arrow-down-circle-fill arrow"></i>
             <div class="ripple" style="animation-delay: 0s;"></div>
@@ -183,6 +183,9 @@
             <div class="ripple" style="animation-delay: 2.4s;"></div>
         </div>
     </div>
-    
+
     <app-home-carousel></app-home-carousel>
+</body>
+</html>
+
  
