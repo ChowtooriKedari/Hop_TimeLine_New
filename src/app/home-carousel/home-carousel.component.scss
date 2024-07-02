@@ -16,8 +16,10 @@
 }
 
 .uspArea .contentWrap .usp .copy {
-    padding-left: 20px;
+    padding-left: 10px;
     max-width: 270px;
+    text-align: center;
+
 }
 
 .uspArea .contentWrap .usp .copy h3 {
@@ -28,11 +30,12 @@
 .uspArea .contentWrap .usp .copy p {
     margin-bottom: 0;
     margin-top: 8px;
+    text-align: center;
 }
 
 @media(max-width: 1024px) {
     .uspArea .contentWrap .usp .copy {
-        padding-left:20px;
+        padding-left:10px;
     }
 }
 
