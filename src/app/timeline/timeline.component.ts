@@ -351,11 +351,6 @@ export class TimelineComponent implements OnInit {
               "The Dartmouth Alumni Magazine covered this production as early as 1921 reporting on a previous article by John A. Bellows of the class of 1870. The article plainly reported on the screenplay without much commentary on the representation of Native Americans in the play. The play is presented as a glorious first and not precisely condemned for its hijacking of Native American identity."
              },
              {
-              "header": "Red Thunder Native Dance Theater, 1816",
-              "image": "",
-              "text": ""
-              },
-             {
               "header": "Tide changes, March 16, 1973",
               "image": "./assets/petersmith.png",
               "text": "Two centuries after the first appearance of Native Americans in Arts on campus, a set of letters from Peter Smith who worked at the Hopkins Center for the Arts foreshadow a more positive future. The letter shown here was set to a Stu Tonemah with President Kemeny copied on it. The letter discusses the Hop’s willingness and hope to host Native American artists. The letter outlines the Hop’s ambition of hosting a Native American for each of the three terms. Further, Peter Smith lays down other prospective Native American art events that can be hosted by the Hop. Such a vast breadth of prospective events reflects a willingness for change and growing positive representation of Native Americans on campus. This moment also signifies the agency that Native American artists had won for themselves through the verve of their art and the rigor of their struggle."
@@ -367,8 +362,8 @@ export class TimelineComponent implements OnInit {
             },
             {
               "header": "Alanis Obamsawin, 1988",
-              "image": "",
-              "text": "Alanis Obamsawin is a filmmaker of Abenaki origin who shot her film “A Way of Learning” on campus in 1988 documenting the lives of Native American students on campus. The film was co-produced by the Native American Council of Dartmouth College and supported by Professor Bruce Duthu. TBD upon access to film footage."
+              "image": "./assets/AlanisObamsawin.png",
+              "text": "Alanis Obamsawin is a filmmaker of Abenaki origin who shot her film “A Way of Learning” on campus in 1988 documenting the lives of Native American students on campus. The film was co-produced by the Native American Council of Dartmouth College and supported by Professor Bruce Duthu."
             },
             {
               "header": "Kent Monkman At the Hood, April 8 – December 16, 2023",
