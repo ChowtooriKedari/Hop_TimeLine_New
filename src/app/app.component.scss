@@ -604,7 +604,6 @@ header.sticky .sticky-header-item .menu--small .visually-hidden--sticky,header.s
 }
 
 .navigation {
-    background-color: #EFFAFF;
     width: 100%;
     padding: 0.3125rem 0 0.4375rem;
 }
@@ -1006,4 +1005,7 @@ header.sticky .sticky-header-item .menu--small .visually-hidden--sticky,header.s
   .popup-content h1 {
     margin-top: 0;
   }
-  
+  .site-header .header-main {
+    justify-content: space-between;
+    align-items: center;
+  }

@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, ElementRef, ViewChild, AfterViewInit, OnDestroy, OnChanges, SimpleChanges, ChangeDetectorRef } from '@angular/core';
 import { PageFlip } from 'page-flip';
 import { VgApiService } from '@videogular/ngx-videogular/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-flipbook',
@@ -21,7 +22,9 @@ export class FlipbookComponent implements OnInit, OnDestroy, OnChanges, AfterVie
   isLoading:boolean=true;
   pageFlip!: PageFlip;
 
-  constructor(private cdr: ChangeDetectorRef) { }
+  constructor(private cdr: ChangeDetectorRef,private sanitizer: DomSanitizer) { }
+
+
 
   ngOnInit(): void {
     console.log("ngOnInit: Check FlipBook");
@@ -51,21 +54,22 @@ export class FlipbookComponent implements OnInit, OnDestroy, OnChanges, AfterVie
   }
 
   private initPageFlip() {
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
     return new PageFlip(
       this.flipbookContainer.nativeElement,
       {
-        width: 350,
+        width: isMobile ? 350 : 350,  // Adjust width based on device
         height: 600,
         minWidth: 200,
-        maxWidth: 700,
+        maxWidth: 1400,
         minHeight: 420,
         maxHeight: 1100,
         maxShadowOpacity: 0.5,
         showCover: true,
         mobileScrollSupport: false,
-        autoSize:true,
-        usePortrait:true
-        }
+        autoSize: true,
+        usePortrait: isMobile // Use portrait mode for mobile devices
+      }
     );
   }
 
@@ -120,7 +124,9 @@ export class FlipbookComponent implements OnInit, OnDestroy, OnChanges, AfterVie
       }
     );
   }
-
+  sanitizeContent(content: string): SafeHtml {
+    return this.sanitizer.bypassSecurityTrustHtml(content);
+  }
   ngOnDestroy(): void {
     this.initialized = false;
           setTimeout(() => {

@@ -12,11 +12,7 @@ export class AppComponent  implements OnInit {
   name = 'Jquery Integration With Angular!';  
   isJqueryWorking: any;  
   title = 'hop_timeline_Project';
-  isVisible = false;
 
-  closePopup() {
-    this.isVisible = false;
-  }
   dataItems: any[] = [
     {
       name: 'name',
@@ -41,4 +37,24 @@ export class AppComponent  implements OnInit {
   {  
    
   }  
+  isVisible: boolean = false;
+
+  scrollToSection(section: string) {
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+   toggleMobileMenu() {
+    var menu = document.getElementById('mobile-menu')!;
+    if (menu.style.display === 'flex') {
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'flex';
+    }
+  }
+
+  closePopup() {
+    this.isVisible = false;
+  }
 }   

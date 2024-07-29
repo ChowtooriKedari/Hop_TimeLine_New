@@ -91,20 +91,65 @@ export class TimelineComponent implements OnInit {
   this.pageTitle="Latino Art on Campus";
   this.pageData = [
         {
-          "header": "",
-          "image": "",
-          "text": "Josè Orozco: “Found in the Dartmouth’s Baker Library, Orozco’s The Epic of American Civilization (1932-34) retells the standard eurocentric history of America from a story centered around Mesoamerica.”"
+          "header": "1931, Carlos Sanchez becomes the first artist in residence",
+          "image": "./assets/ErnstHopkinsendorsingSanchez.jpg",
+          "text": "Carlos Sanchez graduated from Dartmouth in 1923 and became the first artist in residence at Dartmouth in 1931. He came from Guatemala city and went on to study architecture at Yale University. He served as a draftsman for the Empire State Building and spent time in the Weimar Republic working in art-related opportunities. During his residency at Dartmouth, he helped found the Arts Department and then collaborated with Josè Clemente Orozco on his mural. Sanchez was fluent in both English and Spanish, hence served as an important aide to Orozco, helping him familiarize himself with Dartmouth and its history. "
         },
         {
-          "header": "",
-          "image": "",
-          "text": "Carlos Sanchez: It should be noted that the very first artist in residence at the Hood Museum of Art at Dartmouth College was Venezuelan-born Dartmouth graduate (class of 1923) Carlos Sanchez."
+          "header": "June 1932, The Saga of  Josè Clemente Orozco",
+          "image": "./assets/JoseClementeOrozco_Part1.png",
+          "text": "In June 1932, Orozco was sanctioned as the second artist-in-residence and was then tasked with the job of painting the walls in the Reserve Book Room in the Baker Library. The aim of the mural was to create a paradigm of mural paintings for students to study, however, Orozco’s work exceeded this goal and acquired higher relevance in its sociopolitical nature. Professors Artemas Packard and Churchill P. Lathrop played a crucial role in bringing Orozco to campus. Both of them went on to become key founding figures of the Hopkins Center for the Arts. Orozco enacted his mural in the context of a growing interest in the Arts for the College since only a couple years ago in 1929 Carpenter Hall was completed."        
         },
         {
-          "header": "",
+          "header": "June 1932, The Saga of  Josè Clemente Orozco",
+          "image": "./assets/JoseClementeOrozco_Part2.png",
+          "text": "Orozco’s mural represents themes of colonialism and subjugation of the indigenous population of Latin America. Orozco presents both a symbolic representation of the 5000 year long history of pre-colonial Latin America and the rot caused by European imperialism. His mural is an incisive piece that irreducibly drives at the contest between evil and good. His work is titled “The Epic of American Civilization” to ironically signify the dark underbelly of European progress on the American continent. Orozco’s work continues to resonate with Dartmouth’s community and the Reserve Book Room has now been renamed as the Orozco Mural Room. "
+        },
+        {
+          "header": "November 6, 1964, Mexican Oaxaca weaving arts exhibition",
+          "image": "./assets/Mexican_Oaxaca_weaving_arts_exhibition.jpg",
+          "text": "An exhibition of textiles from the Oaxaca region of Mexico was put on display at the Hopkins Center for the first time in the country’s history. The debut exhibition showed through the fall of 1964. The announcement of the exhibition remarked on the 6000 year history of the region’s weaving tradition and the diversity of “eight Indian tribes” whose textiles were represented. The exhibition consisted of the privately owned Cervantes Collection of Oaxaca Textiles from Mexico, and 38 additional items obtained by Gerald Williams - a potter and craftsman of Goffstown, NH, who traveled through villages in Oaxaca. "
+        },
+        {
+          "header": "January 30, 1998, The Hop hosts Cuarteto Latinoamericano",
+          "image": "./assets/CuartetoLatinoamericano_Part1.jpg",
+          "text": "Grammy Award winning string quartet Cuarteto Latino Americano visited the Hopkins Center for a short residency that included a performance in the Spaulding Auditorium at the Hop. Cuarteto Latinoamericano aimed to decentralize the canon of classical music and shift its capital away from Europe. The quartet was described as a “first rate ensemble of passionate temperament” by the San Francisco Chronicle. It consisted of three brothers - violinists Saul and Aaron and cellist Alvaro Bitràn, and a violinist - Javier Montiel. "
+        },
+        {
+          "header": "January 30, 1998, The Hop hosts Cuarteto Latinoamericano",
+          "image": "./assets/CuartetoLatinoamericano_Part2.jpg",
+          "text": ""
+        },
+        {
+          "header": "January 30, 1998, The Hop hosts Cuarteto Latinoamericano",
+          "image": "./assets/CuartetoLatinoamericano_Part3.jpg",
+          "text": ""
+        },
+        {
+          "header": "17 Aug, 1999, Poncho Sanchez’s Latin Jazz Band at the Hop",
+          "image": "./assets/PonchoSanchezLatinJazzBand.jpg",
+          "text": "Texas born Poncho Sanchez’ octet band had an illustrious career and came to the Hop with already 20 years in the business. They had released about 20 albums and came to be at the forefront of Latin jazz innovation. The band played music from Africa, motown classics and even infused Broadway tunes with a Latin twist. "
+        },
+        {
+          "header": "Bibliography",
           "image": "",
-          "text": "1998 saw the brief visit of Grammy Award winning string quartet Cuarteto Latino Americano for a short residency and performance in the Spaulding Auditorium at the Hop. The quartet’s mission is to showcase contributions of Latino musicians and composers, who are often overlooked in the Eurocentric world of classical music. In 1999 Ballet Folklorico Quezalli de Veracruz, a touring dance group from Veracruz, Mexico, came to Dartmouth and put on a series of shows, both on campus and in the greater community (nearby public schools) as part of the Hopkins Center, Outreach and Arts Education initiative."
-        },       
+          "text": "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; " +
+      "word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +
+          "1. Artemas Packard papers, MS-1353. Rauner Library Archives and Manuscripts. " +
+    "<a style=\"color:blue\" href='https://archives-manuscripts.dartmouth.edu/repositories/2/resources/3125'>" +
+    "https://archives-manuscripts.dartmouth.edu/repositories/2/resources/3125</a></p>" +
+    
+    "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; " +
+    "word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +
+    "2. Hopkins Center, Outreach Arts and Education records, DA-780. Rauner Library Archives and Manuscripts. " +
+    "<a style=\"color:blue\" href='https://archives-manuscripts.dartmouth.edu/repositories/2/resources/100'>" +
+    "https://archives-manuscripts.dartmouth.edu/repositories/2/resources/100</a></p>" +
+    
+    "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; " +
+    "word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +
+    "3. Latin Jazz Band to Play at Hopkins Center; Article by: Luallen, Ken; Page No: 7, 1999-08-17. " +
+    "The Dartmouth, Index for 1999, TD-1999. The Dartmouth Index. " +
+    "<a style=\"color:blue\" href='https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/649761'>" +"https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/649761</a></p>"      },     
       ];
     } else if (data === '2') {
       this.pageTitle="Earliest Dartmouth production";
@@ -125,262 +170,165 @@ export class TimelineComponent implements OnInit {
           "text": "In 2021, Hop produced “In the Spirit” as a celebration of the queer and two-spirit identity in the Native American communities. “In the Spirit is a series that brings together Native performing artists and culture bearers from the Queer and Two-Spirit community across the United States, offering engagement and discussion around their emerging body of work. The series aims to place the performing arts of this community front and center in inclusive and connective celebration.”"
         },  
       ];
-    } else if (data === '3') {
-      this.pageTitle="SLAVERY DURING DARTMOUTH’S FOUNDING & EARLY YEARS";
-      this.pageData = [
-        {
-          "header": "SLAVERY DURING DARTMOUTH’S FOUNDING & EARLY YEARS",
-          "image": "",
-          "text": "Stories of the founding of Dartmouth College often depict Eleazar Wheelock braving the wilderness as a pious pioneer of education. He had begun Christianizing indigenous people years earlier at the Moor’s Charity School in Connecticut, but he established the College in Hanover to educate “English youth and any others.” Dartmouth lore states that in August 1770, Wheelock arrived in New Hampshire with his students and several slaves.  However, College archivist, Peter Carini has discovered that Wheelock owned at least nineteen enslaved persons during his lifetime. Their labors supported the well-being of President Wheelock’s family and his students and contributed to the maintenance of his home and the school’s buildings. Enslaved persons cleared trees, swept buildings, drove oxen, prepared meals, and cared for the sick. Enslaved as well as free people of color lived and worked in other Hanover households and businesses. In the historical records, we see glimpses of their loyalty to family members, their religious devotion, and their personal flaws.  Slavery and the enslaved remained a part of campus life and in the North through the Civil War."
-        },
-        {
-          "header": "Eleazar Wheelock, account book, cal 1726-1775. MS-1310, box 38, page 27",
-          "image": "",
-          "text": "Eleazar Wheelock’s personal account book, showing debts and credits for services and goods. This particular page details “renting” out half a day of labor of his slaves Elijah and Fortune.",
-        },
-        {
-          "header": "Eleazar Wheelock to Asa Foot, Dartmouth College, January 28, 1776. MS 776128",
-          "image": "",
-          "text": "Letter from Eleazar Wheelock to Capt. Asa Foot. concerning the purchase of two items—a wheel of cheese and a \"negro.\" Wheelock writes \"as to the Negro, I don’t know when I shall be able to pay for him.”"
-        },
-        {
-          "header": "Eleazar Wheelock, Will, Hanover, NH, March 2, 1779. MS 779252.6",
-          "image": "",
-          "text": "Eleazar Wheelock’s property and interests were left to his son and second president of Dartmouth, John Wheelock, including his slaves. According to his will, his slaves would be emancipated according to the condition of their moral character, marriage, and age of service."
-        },
-        {
-          "header": "Samson Occom to Eleazar Wheelock, Lebanon, Connecticut, October 4, 1765. DC Hist Mss 765554.2",
-          "image": "",
-          "text": "This 1765 letter from Samson Occom to Eleazar Wheelock discussing the terms of lending him a negro and an oxen to help with his business provides further evidence that Wheelock used his slaves for hard labor."
-        },
-        {
-          "header": "Jabez Bingham to Eleazar Wheelock, Lebanon, Connecticut, September 5, 1770. MS 770505",
-          "image": "",
-          "text": "Letter from Jabez Bingham to Eleazar Wheelock detailing how Wheelock's family would soon leave for Hanover with supplies. Bingham mentions that the enslaved man Exeter refuses to leave without Peggy."
-        },
-        {
-          "header": "Founding of Dartmouth College,New Haven, Conn. : J.W. Barber, 1852. Iconography 398",
-          "image": "",
-          "text": "This wood engraving portrays the construction of Dartmouth in 1770."
-        },
-        {
-          "header": "Excerpt from the Dartmouth College Charter, 1769. MS 769663",
-          "image": "",
-          "text": "“AND further that the generous Contributors to the support of this design of spreading the knowledge of the only true God and Saviour among the American Savages, may, from time to time, be satisfied that their liberalities are faithfully disposed of, in the best manner, for that purpose, and that others may, in future time, be encouraged in the exercise of the like liberality, for promoting the same pious design”.This excerpt legally obligates Wheelock, future College presidents, trustees and donors to pursue the education and religious conversion of indigenous peoples in the Americas."
-        },
-        {
-          "header": "Portrait of Eleazar Wheelock. Iconography 1647",
-          "image": "",
-          "text": "Eleazar Wheelock (1711-1779) was a Congregational minister and educator who moved from Lebanon, Connecticut to New Hampshire in order to found Dartmouth College in 1769."
-        },
-        {
-          "header": "Warrant for the Arrest of Caesar, Hanover, NH, February 3, 1773. MS 773156.2",
-          "image": "",
-          "text": "Caesar, one of Wheelock’s slaves, allegedly defamed the character of a white servant named Mary Sleeper.  Following his conviction, more than 30 college and townspeople, plus students of Dartmouth and Moor’s signed a bond vouching for his future good behavior."
-        },
-        {
-          "header": "The Last Will and Testament of John Wheelock. MS-934 Box 1, folder 7",
-          "image": "",
-          "text": "John Wheelock’s will set out the requirements for the emancipation of three slaves. It entrusted for them money and land, once conditions of marriage and terms of service had been met."
-        },
-        {
-          "header": "T. C. Uphan, Narrative of Phebe Ann Jacobs, Place of publication not identified: [American Tract Society], n.d. DC History E185.97 U76",
-          "image": "",
-          "text": "John Wheelock married Maria Suhm, a granddaughter of Christian Suhm, the Danish governor of St. Thomas and an owner of many slaves.  Young Phebe, an enslaved African American, was a wedding gift to Wheelock’s new wife. Phebe was later gifted to their daughter Maria when she married Reverend William Allen, who became president of Bowdoin College.  Phebe is mentioned several times in family correspondence, and this narrative details her exemplary Christian life in Brunswick, ME."
-        }
-      ];
     }
-    else if (data === '4') {
-      this.pageTitle="DARTMOUTH AND THE DEBATES ON SLAVERY";
-      this.pageData = [
-        {
-          "header": "DARTMOUTH AND THE DEBATES ON SLAVERY",
-          "image": "",
-          "text": "Dartmouth’s social and political debates over slavery reveal nuances within anti-slavery and pro-slavery thought.  Among those opposed to slavery, some advocated for citizenship and full equality for persons of African descent, while others sought their removal to the colony of Liberia, West Africa.  Among those who accepted slavery, some were its zealous defenders, while others were willing to tolerate it for the sake of preserving the Union. The ideological evolution of Dartmouth’s sixth president Nathan Lord from anti-slavery to staunchly pro-slavery reflected these shifting and conflicting politics. On campus, students formed both anti-slavery and pro-colonization groups. Literary societies also provided students with an entry point into public debates on the issue of slavery. Students also heckled and disrupted anti-slavery speakers and wrote letters home discussing the ways in which slavery influenced their religious, political, and social affiliations and views. During the Civil War, Dartmouth students and graduates served in both Union and Confederate militaries."
-          },
-        {
-          "header": "Charles T.Congdon, The Warning of War : a Poem Delivered before the United Societies of Dartmouth College, Hanover, N.H., at the Annual Commencement, July 30, 1862, (Charles Taber) New-York: F. Hart & Co., 1862. DC Hist PS1359.C726",
-          "image": "",
-          "text": "Commencement poet and journalist Charles T. Congdon highlights slavery’s paradoxes, stating “[t]he problem’s solved by something quite absurd…Freedom is Slavery, and slaves are free…”"+
-          "Quote: \"We’ve tried this formula of cold and hot\:"+
-          "\"All men are free and equal – and are not;"+
-          "\"God made of one blood all men – but, you see,"+
-          "\"He gave black blood to Sambo, blue to me:"+
-          "\"All men we hold – too plain a fact to show –"+ 
-          "\"Born free and equal – that is, if ‘tis so;"+
-          "\"All men the scriptures prove are near of kin – "+
-          "\"That is, all men who have a common skin;"+
-          "\"Freedom’s the birth-right of all men that be,"+
-          "\"Provided men can manage to be free."+
-          "\"The law’s repealed against a pair of stools – "+
-          "\"Four millions of exceptions prove all rules. "+
-          "\"Extremes must meet, and thus you clearly see"+
-          "\"Freedom is Slavery, and slaves are free; "
-        },
-        {
-          "header": "United Fraternity, Meeting Minutes 1860-1870. DO-4, Box 6256, folder 1, page 8",
-          "image": "",
-          "text": "In 1864, members of Dartmouth’s United Fraternity approved anti-slavery minister Henry Ward Beecher as their first choice of orator for upcoming commencement exercises. Alternates included pro-Union attorney Caleb Cushing, abolitionist poet Anna Dickens, and radical abolitionist William Lloyd Garrison."
-          },  
-          {
-            "header": "Social Friends, Meeting Minutes, DO-2, box 6250, folder 4 ",
-            "image": "",
-            "text": "The Social Friends Literary Society debated current issues such as the fugitive slave bill. Social Friends member Jonathan C. Gibbs (Class of1852) was one of the few black students attending Dartmouth at the time and later became Florida’s first black Secretary of State during the Reconstruction period."
-          },
-          {
-            "header": "Social Friends and United Fraternity Keys. Uncat Realia",
-            "image": "",
-            "text": "The Social Friends and United Fraternity Literary Societies’ members received personally engraved “keys” that were typically worn on watch chains."
-          },
-          {
-            "header": "United Fraternity Key. DO-4, Box 6256, Folder 1",
-            "image": "",
-            "text": "The center “key” encased in a locket belonged to Daniel Webster. He became a member of the United Fraternity during his first year on campus and was eventually elected as Vice-President and orator."
-          },
-          {
-            "header": "Jesse Hutchinson, Daniel Decatur Emmett, and the Hutchinson Family (Singers), Get off the track!: a song for Emancipation, Boston: Published by the Author, 1844. Sheet Music HF 21",
-            "image": "",
-            "text": "This song was dedicated to Nathaniel Peabody Rogers, Dartmouth Class of 1816, \"As a mark of esteem for his intrepidity in the cause of Human Rights.\"  Rodgers was the editor of an abolitionist newspaper, Herald of Freedom in Concord, NH. He also served as a station-master on the Underground Railroad for fugitive slaves heading to Canada, and a delegate to the 1840 World Anti-Slavery Convention in London. He is notable because he withdrew from the Convention when women delegates were not seated.  Rogers was also a co-founder of the racially integrated, co-ed Noyes Academy in nearby Canaan, N.H. The academy was short-lived however, as in 1935, a mob of five hundred, including some from Hanover, used seventy oxen to pull the building from its foundation, and later burned it. Several prominent future African American leaders were among the students who attended Noyes: Alexander Crummell, Henry Highland Garnet, Julia Williams, and Thomas Paul, Jr. Dartmouth Class of 1841."
-          },
-          {
-            "header": "William F. Wallis to Lewis Sawyer. October 4, 1838. MS 838554",
-            "image": "",
-            "text": "In this letter, William Wallis (Class of 1841) reported that he had joined an Abolition society which engaged the \"best portion of the students\" and that \"[m]ost of the faculty here are warm abolitionists.\" Perhaps Willis is alluding to their membership in the American Colonization Society. "
-          },
-          {
-            "header": "Roger Moses Sargent to John Houston. April 2, 1844. MS 844252",
-            "image": "",
-            "text": "Roger Moses Sargent (Class of 1846) writes of anti-slavery meetings in his hometown Lowell, Massachusetts, stating: \"I do not agree with the measures of some who would make their antislavery meetings places to...slander the church…\""+
-            "Quote: \"Last August when I was at home I found there was quite an excitement about slavery and non-resistance. They had an anti-slavery discussion as they called it every Monday night, and a lot of…no-governments and no-church and no-nothing men deemed to take the lead. Finally, during the fall, they acted so bad that the church had to refuse the use of the vestry. Then some of them attacked Mr. Hanks in February, when I was at home…and some other ministers refused to read the notice in their churches. "+
-            "The first day they passed a resolution to this effect: “Resolved that Rev…Hanks and Rev. Mr. Naylor are opposers of the cause of human liberty, …hypocrites and ministers of the evil one. And such…abuse was heaped upon the poor men, I never heard equaled…The cause of anti-slavery is still prospering well at Lowell, thought there are some that overshoot the mark…I do not agree with the measures of some who would make their antislavery meetings places to attack and slander the church and ministers…\""
-          },
-          {
-            "header": "David Youngman, Jr. to David Youngman Sr., February 13, 1837. MS 837163",
-            "image": "",
-            "text": "David Youngman Jr., Class of 1839, wrote a letter to his father David Youngman Sr. in 1837. He informs his father that he has become an abolitionist. Youngman Sr. was a slaveowner living in Tennessee at the time."+
-                    "Quote: \"About half of the present members of college believe it a sin, for one man to hold another in slavery.  Thus rendering him liable to be bought and sold with other property, at the will of the owner, considering there that, slavery, as it now exists at the South is a direct violation of the laws of God. Without saying anything of the comparative happiness. In the condition of the slave and free black: we believe a remedy should be provided and speedily applied. And believing that nothing short of an entire emancipation can ever do this, we have formed ourselves into a society. Thus, cooperating with others similar throughout our country: I am one of their number.\""              
-          },
-          {
-            "header": "David Youngman Sr. to David Youngman Jr. April 1837. MS 837251",
-            "image": "",
-            "text": "David Youngman Sr. wrote this letter in response to his son, informing him of God’s divine justification for slavery. He continues on to write about the 3 new slaves he recently acquired."+
-            "Quote: \"I do not write this because I am an advocate for slavery, no for if I know my own heart I would rejoice to all the human race elevated converted from the slavery of sin and made perfectly happy both for time and eternity--but the judge of all the earth will do right and we find our selves surrounded with slavery under the superintending providence of the Almighty and whenever it is his will to remove them I am ready to say let them go free-- I have bought a man and wife and 3 children--they are both professors of religion and I assure you we live harmoniously together we have 3 black men and one white man hired . Two of the black men are church members and I question if you can find many families composed of as many members more [unclear] in a free state--tho I would not be thought to boast.\""
-          },
-        ];        
-    }
-    else if (data === '5') {
-      this.pageTitle="SLAVERY IS WHAT IT IS; AND IT IS NOTHING ELSE\" -NATHAN LORD";
-      this.pageData = [
-        {
-          "header": "SLAVERY IS WHAT IT IS; AND IT IS NOTHING ELSE\" -NATHAN LORD",
-          "image": "",
-          "text": "Dartmouth’s extended public engagement with slavery discourse through its alumni body further illustrates the distinction between radical abolitionist thought and reformist compromise. The founding of the American Colonization society by Dartmouth alumni, which established the Christian colony of Liberia as the prospective home for freed black people, and Daniel Webster’s Senate speech in support of the 1850 Compromise, both demonstrate that Dartmouth’s engagement with anti-slavery politics was driven by a pragmatic confluence of political, economic, and social factors."
-          //It consists of two separate playlets-one entitled.  “A Dialogue Between an Englishman and an Indian“, date March 4, 1779 , the other, “A Little Teatable Chitchat, alamode:—or an ancient discovery reduced to modern practice :—Being a Dialogue and a Dish of Tea. Parturiuntmontes, nancetur ridiculus mus“, dated June, 1781.”"
-        },
-        {
-          "header": "Nathan Lord, sermon, n. d. MS-510, Box 1, Folder 34",
-          "image": "",
-          "text": "In this undated sermon, Dartmouth’s sixth President Nathan Lord addressed the issue of whether slavery was right or wrong. The sermon appears to have been written after Lord transitioned from being an abolitionist to being pro-slavery."+
-          "Quote: \"Slavery exists de facto. It has always existed since the curse was pronounced on Canaan, and Canaan has been the means of carrying on the civilization of 'shem japeth' during their appointed time.\"" 
-        },
-        {
-          "header": " A Letter of Inquiry to Ministries of the Gospel of all Denomination, on Slavery by A Northern Presbyter, 4thedition, Hanover, NH. : Dartmouth Press, 1860. MS-510, Box 1, Folder 27",
-          "image": "",
-          "text": "In this anonymously published pamphlet, Nathan Lord addresses the question of whether slavery is in accordance with Christianity. Lord desired readers to think critically about the institution of slavery in accordance with their faith, moral, and spiritual beliefs."+
-          "Quote: \"Whether it does not especially concern ministers of the Gospel to consider the questions of slavery from its origin and foundations, as a question of Divine right, rather than of prudence, policy, or economy,--- a question of the moral sense and judgements, rather than of the sensibilities and sympathies — of the divinities rather than humanities?\""
-        },
-        {
-          "header": "Nathan Lord, A True Picture of Abolition, Boston: Press of the Daily courier, 1863. MS-510, Box 1, Folder 27",
-          "image": "",
-          "text": "In this pamphlet, Nathan Lord describes abolitionism as dishonorable, false, and the greatest danger to the Constitution and society. Lord states, “We find that, before the era of abolition, this whole country enjoyed remarkable union, peace, and prosperity for half a century.”"
-        },
-        {
-          "header": "The Dartmouth Oestrus, Volume 1, 1855, Hanover, N.H. DC Hist LH1.D3 D282",
-          "image": "",
-          "text": "An editorial cartoon in this student satirical newspaper depicts President Nathan Lord chasing a runaway slave.  This illustration shows the discontent students felt for Lord’s support of slavery."
-        },
-        {
-          "header": "Daniel Webster on Slavery",
-          "image": "",
-          "text": "Daniel Webster, Daniel Webster on Slavery: extracts from some of the speeches of Mr. Webster, on the subject of slavery; together with his great compromise speech of March 7, 1850, entire, and the Boston memorial, on the subject of slavery, drawn up by Mr. Webster ; to which is added the Constitution of the United States, Boston: W. Carter & Brother, 1861. Webster E449.W37 1861"+
-          "Daniel Webster, Class of 1801, is heralded as the legal champion of Dartmouth College because of his strategic thinking and oratory prowess in the case The Trustees of Dartmouth College v. Woodward. Webster saw himself as anti-slavery but was also pro-Union. In 1850, Webster voted in favor of the Fugitive Slave Act. This booklet contains Webster’s infamous Seventh of March speech before the Senate delivered in support of the Compromise of 1850. In his speech Webster stated,"+
-          "\"I put it to all the sober and sound minds at the North, as a question of morals and a question of conscience, what right have they, in their legislative capacity, or any other, to endeavor to get round this Constitution, to embarrass the free exercise of the rights secured by the Constitution, to the persons whose slaves escape from them? None at all-none at all.\""
-        },
-        {
-          "header": "Portrait of Daniel Webster, Class of 1801. Iconography 1647-1965.",
-          "image": "",
-          "text": "Portrait of Daniel Webster, Class of 1801. Iconography 1647-1965."
-        },
-        {
-          "header": "Portrait of Nathan Lord, President of the College 1828-1863. Iconography 1647-1217",
-          "image": "",
-          "text": "Portrait of Nathan Lord, President of the College 1828-1863. Iconography 1647-1217"
-        },
-        {
-          "header": "American Colonization Society membership certificate, signed blank. Madison, James. 01 December 1833. MS 001939",
-          "image": "",
-          "text": "The Society for the Colonization of Free People of Color of America, commonly known as the American Colonization Society (ACS), was established in 1816. Daniel Webster was a founding member of the ACS in addition to Dartmouth Presidents Daniel Dana, Bennett Tyler, and Nathan Lord as well as many faculty members and alumni."
-        },
-        {
-          "header": "Carey, Mathew, and Mercer, Charles Fenton. Letters on the Colonization Society",
-          "image": "",
-          "text": " Carey, Mathew, and Mercer, Charles Fenton. Letters on the Colonization Society : with a View of Its Probable Results, Under the Following Heads: The Origin of the Society; Increase of the Coloured Population; Manumission of Slaves in This Country; Declarations of Legislatures, and Other Assembled Bodies, in Favour of the Society; Situation of the Colonists at Monrovia and Other Towns ... Addressed to the Hon. Charles F. Mercer ... Third edition, enlarged and improved. Philadelphia: Young, printer, 1832. Rare E448.C277 1832"+
-          "This book is comprised of a series of letters directed to top politicians and possible supporters of the American Colonization Society. In one of the letters, the authors proudly boast that, “The legislatures of fourteen states, New Hampshire, Vermont, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, Georgia, Tennessee, Kentucky, Ohio and Indiana, have passed resolutions distinctly recommending the scheme of colonizing the free colored population, and most of them approving the objects of the Society. Eleven of those states have instructed their senators, and requested their representatives in Congress, to promote in the general government, measures for removing such free persons of color as are desirous of emigrating to Africa."
-        },
-        {
-          "header": "Tyler Bennet,The third annual report of the New Hampshire Auxiliary Colonisation [sic] Society",
-          "image": "",
-          "text": "Tyler Bennet,The third annual report of the New Hampshire Auxiliary Colonisation [sic] Society: presented and read at the meeting of the Society, held in Concord, June 7, 1827, Concord, N.H. : The Society, 1827. DC Hist E446 .N46 1827"+
-          "This pamphlet was revised by vice president of the state chapter, Bennet Tyler, who served as the President of Dartmouth College at the time of this meeting.  A large part of the pamphlet is dedicated to outlining the vision and goals of the American Colonization Society. The society was set on resettling freed Black people and illegally traded slaves in a Christian colony named Liberia. ACS members viewed Africa as a God-designated site for Black people. The report contains an update on the Liberian colony proclaiming that \"The prosperous condition of the Colony at Liberia is almost, if not altogether unparalleled in all colonial history.\""         
-        },
-        {
-          "header": "Daniel Dana, A discourse addressed to the New-Hampshire Auxiliary Colonization Society, at their first annual meeting. Concord, June 2, 1825, Concord",
-          "image": "",
-          "text": "Daniel Dana, A discourse addressed to the New-Hampshire Auxiliary Colonization Society, at their first annual meeting. Concord, June 2, 1825, Concord: Printed by Shepard and Bannister. Rare E448 .D17 1825"+
-          "Former Dartmouth President Daniel Dana addressed the first meeting of the New Hampshire Auxiliary Colonization Society. He writes that \"The aim of the American Colonization Society, you now clearly perceive. It is to sever the free blacks of our country from the mass of our population and reunite them to their kindred in Africa. It is to take them away from a region to which they do not belong, and where they can never feel themselves at home; and give them back to the land for themselves at home: and give them back to the land for which the kind Author of their being framed and designed for them.\" Members of the ASC and NHACS felt that their organizations were \"benevolent\" because they were granting Black people an opportunity to prosper."
-        }
-      ];
-    }
-    else if (data === '6') {
+    else if (data === '3') {
       this.pageTitle="Native American Presence in Arts on Campus";
       this.pageData = [
             {
               "header": "Native American Presence in Arts on Campus",
               "image": "./assets/nativeartspaper.jpg",
-              "text": "First, March 4, 1779: The first theater production at Dartmouth was titled “A Dialogue between an Englishman and an Indian.” It was spearheaded by Professor John Smith who taught “Greek, Latin, Hebrew and Oriental Languages.” Professor Smith’s script for the play made a Native American character call himself “uncultivated and unpolished.” His screenplay characterizes Native Americans as “savages” and “cruel people.” Such a portrayal reflects the prevalent prejudice against the Native Americans at Dartmouth and sentiments of European chauvinism. Early Dartmouth’s theater scene was a brainchild of charged sentiments of caucasian supremacy."+
-              "The Dartmouth Alumni Magazine covered this production as early as 1921 reporting on a previous article by John A. Bellows of the class of 1870. The article plainly reported on the screenplay without much commentary on the representation of Native Americans in the play. The play is presented as a glorious first and not precisely condemned for its hijacking of Native American identity."
-             },
+              "text": "The first theater production at Dartmouth was titled “A Dialogue between an Englishman and an Indian.” It was spearheaded by Professor John Smith who taught “Greek, Latin, Hebrew and Oriental Languages.” Professor Smith’s script for the play made a Native American character call himself “uncultivated and unpolished.” His screenplay depicts  a white man’s characterization of Native Americans as “savages” and “cruel people.” Such a portrayal reflected the prevalent prejudice against the Native Americans and sentiments of European chauvinism. However, as the screenplay progresses, the unnamed Native American character seizes agency and indicts the Englishman for the cruelty of his people vis-a-vis colonialism. The play concludes with the Englishman having a change of heart as he declares, “perhaps I have been too much prejudiced against the Indians.”"+
+              "The Dartmouth Alumni Magazine covered this production as early as 1921 reporting on a previous article by John A. Bellows of the class of 1870. "
+          },
              {
-              "header": "Tide changes, March 16, 1973",
-              "image": "./assets/petersmith.png",
-              "text": "Two centuries after the first appearance of Native Americans in Arts on campus, a set of letters from Peter Smith who worked at the Hopkins Center for the Arts foreshadow a more positive future. The letter shown here was set to a Stu Tonemah with President Kemeny copied on it. The letter discusses the Hop’s willingness and hope to host Native American artists. The letter outlines the Hop’s ambition of hosting a Native American for each of the three terms. Further, Peter Smith lays down other prospective Native American art events that can be hosted by the Hop. Such a vast breadth of prospective events reflects a willingness for change and growing positive representation of Native Americans on campus. This moment also signifies the agency that Native American artists had won for themselves through the verve of their art and the rigor of their struggle."
-             },
+              "header": "November 30, 1964, The Rockwell Collection of Western Art",
+              "image": "./assets/RockwellCollectionofWesternArt_Part1.jpg",
+              "text": "The Hop hosted a collection of 28 paintings and two Bronze sculptures on the Old West during the fall of 1964 at the Jaffe-Friede Gallery. The collection included work from renowned artists like Frederick Remington, Charles Russell, Joseph Sharp among others. The exhibition captured various aspects of the early Western scene and series included a set of artworks on “the Indian before his subjection by the white man.”"
+              },
              {
+              "header": "November 30, 1964, The Rockwell Collection of Western Art",
+              "image": "./assets/RockwellCollectionofWesternArt_Part2.jpg",
+              "text": "The exhibition was curated by Robert Rockwell and arranged to be hosted at the Hopkins Center by Professor Churchill Lathrop. In one of the correspondences, Donald F. Berth - Rockwell’s collaborator - notes a small problem with the timing of the exhibition. Berth notes that Rockwell owned a few department stores and it would have been a busy season for him to visit Dartmouth. The letter can be seen here. "
+            },
+            {
+              "header": "November 30, 1964, The Rockwell Collection of Western Art",
+              "image": "./assets/RockwellCollectionofWesternArt_Part3.jpg",
+              "text": ""
+            },
+            {
+              "header": "March 16, 1973, Tides change",
+              "image": "./assets/TidesChange_Part1.png",
+              "text": "Two centuries after the first appearance of Native Americans in Arts on campus, a set of letters from Peter Smith who worked at the Hopkins Center for the Arts foreshadow a more positive future. The letter shown here was sent to a Stu Tonemah with President Kemeny copied on it. The letter discusses the Hop’s willingness and hope to host Native American artists."
+            },
+            {
+              "header": "March 16, 1973, Tides change",
+              "image": "./assets/TidesChange_Part2.png",
+              "text": "The letter outlines the Hop’s ambition of hosting a Native American artist for each of the three terms. Further, Peter Smith lays down other prospective Native American art events that can be hosted by the Hop. Such a vast breadth of prospective events reflects a willingness for change and growing positive representation of Native Americans on campus. This moment also signifies the agency that Native American artists had won for themselves through the verve of their art and the rigor of their struggle."
+            },
+            {
               "header": "Allan Houser, 1979",
               "image": "./assets/allenhouser.png",
               "text": "Native American history has been one of oppression, attempted annihilation and destruction of cultural markers. Such a fraught memory has informed Native American art since the start of the colonial period. Allan C. Houser, the artist-in-residence at the Hopkins Center for the year 1979, represents such an instance of an artist shining through their life of resistance to oppression. A group of Chiricahua tribe members were imprisoned for staging a resistance movement in 1886. One of the first Chiricahua tribe members born out of captivity was Allan C. Houser. Houser’s modernist sculpting work captured sensibilities nationally and marked a moment of robust Native American agency in art. Allan C. Houser’s residency on campus lives past his life as one of his sculpture’s called Peaceful Serenity stands on the lawn in front of the Native American Studies Program Building."
             },
             {
-              "header": "Alanis Obamsawin, 1988",
-              "image": "./assets/AlanisObamsawin.png",
-              "text": "Alanis Obamsawin is a filmmaker of Abenaki origin who shot her film “A Way of Learning” on campus in 1988 documenting the lives of Native American students on campus. The film was co-produced by the Native American Council of Dartmouth College and supported by Professor Bruce Duthu."
+              "header": "October 3, 1992, American Indian Dance Theater",
+              "image": "./assets/AmericanIndianDanceTheatre_Part1.jpg",
+              "text": "In the fall of 1992, the Hop commissioned the American Indian Dance Theater for a performance that reflected the Native American dance and musical forms indigenous to the New England region. The American Indian Dance Theater group was a historically significant dance troupe that was both critically acclaimed and commercially successful. It was the first Native American dance troupe to have its own national television special."
             },
             {
-              "header": "Kent Monkman At the Hood, April 8 – December 16, 2023",
-              "image": "./assets/kentmonkman.png",
-              "text": "Cree artist Kent Monkman was hosted at the Hood Museum of the Art in 2023. Monkman’s work is a sharp, pointed and glorious monument of Native American agency. Presented through the style of Modernist Abstraction, Monkman’s work shines at the intersection of the Native American identity and queerness. The Hood Museum also commissioned two works from him for their permanent collection. Monkman’s exhibition represents a moment for Native American arts on campus that gives voice to the Native American identity and is fearless in its execution. It is the reclaimed agency that sticks out both in his work and the presentation of it on campus."
+              "header": "October 3, 1992, American Indian Dance Theater",
+              "image": "./assets/AmericanIndianDanceTheatre_Part2.jpg",
+              "text": "The performance highlighted the intergenerational relationship between members of the Native American community. The show opened with the elders remembering their traditional ways and passing them down to the younger generations. The intergenerational coalition of artists showcased a broad diversity of aspects of Native American communal living. Further, the outfits worn by each performer were either self-made or by members of their family. The company members were proficient artisans that specialized in a variety of crafts like jewelry making, metalworks etc. "
             },
             {
-              "header": "Kent Monkman At the Hood, April 8 – December 16, 2023",
-              "image": "./assets/MaliObomsawin.png",
-              "text": "Native American artists have achieved inter-generational presence in Dartmouth’s artistic planes. Mali Obamsawin, Alanis Obamsawin’s daughter, will be collaborating with Jake Blount for a summer concert performance on The Green. Mali Obomsawin infuses free jazz and experimental music with the spirit of Indigenous traditions. Obomsawin is an alumna of the Coast Jazz Orchestra at Dartmouth and has continued her artistic relationship as an independent artist with Dartmouth. "
-            }
+              "header": "October 3, 1992, American Indian Dance Theater",
+              "image": "./assets/AmericanIndianDanceTheatre_Part3.jpg",
+              "text": ""
+            },
+            {
+             "header": "October 3, 1992, American Indian Dance Theater",
+              "image": "./assets/AmericanIndianDanceTheatre_Part5.jpg",
+              "text": ""
+            },
+            {
+              "header": "October 3, 1992, American Indian Dance Theater",
+               "image": "./assets/AmericanIndianDanceTheatre_Part4.jpg",
+               "text": ""
+            },
+            {
+              "header": "July 10, 2024 - Mali Obomsawin",
+               "image": "./assets/AlanisObamsawin.png",
+               "text": "Native American artists have achieved inter-generational presence in Dartmouth’s artistic planes. Alanis Obamsawin is a filmmaker of Abenaki origin who shot her film “A Way of Learning” on campus in 1988 documenting the lives of Native American students on campus. The film was co-produced by the Native American Council of Dartmouth College and supported by Professor Bruce Duthu. Mali Obamsawin, Alanis Obamsawin’s daughter, will be collaborating with Jake Blount for a summer concert performance on The Green. Mali Obomsawin infuses free jazz and experimental music with the spirit of Indigenous traditions. Obomsawin is an alumna of the Coast Jazz Orchestra at Dartmouth and has continued her artistic relationship as an independent artist with Dartmouth. "
+            },
+            {
+              "header": "July 10, 2024 - Mali Obomsawin",
+               "image": "./assets/MaliObomsawin.png",
+               "text": ""
+            },
+            {
+              "header": "Bibliogrpahy",
+               "image": "",
+               "text":"<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +
+                        "Dartmouth Alumni Magazine. “The First Dartmouth Dramatic Production.” Dartmouth Alumni Magazine, May 1921," +
+                       "<a style=\"color:blue\" href='https://archive.dartmouthalumnimagazine.com/article/1921/5/1/the-first-dartmouth-dramatic-production'>https://archive.dartmouthalumnimagazine.com/article/1921/5/1/the-first-dartmouth-dramatic-production</a></p>" +
 
+                       "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" Churchill Lathrop papers, MS-1141. Rauner Library Archives and Manuscripts " +
+                      "<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/2/resources/312'> https://archives-manuscripts.dartmouth.edu/repositories/2/resources/312</a></p>" +
+
+                      "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" Native Americans , 1973 - 1973, 1816, Box: 3813. Hopkins Center records, DA-115. Rauner Library Archives and Manuscripts " +
+                      "<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/2/archival_objects/464000'> https://archives-manuscripts.dartmouth.edu/repositories/2/archival_objects/464000</a></p>" +
+
+                      "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" Hopkins Center for the Arts, July 10, 2024 " +
+                      "<a style=\"color:blue\" href= 'https://hop.dartmouth.edu/events/jake-blount-and-mali-obomsawin'> https://hop.dartmouth.edu/events/jake-blount-and-mali-obomsawin</a></p>" +
+                      
+                      "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" AMERICAN INDIAN DANCE THEATER HOPKINS CENTER EVENTS F, 1816, Box: 584. Hopkins Center records, DA-115. Rauner Library Archives and Manuscripts " +
+                      "<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/2/archival_objects/39814'>https://archives-manuscripts.dartmouth.edu/repositories/2/archival_objects/3981 </a></p>" 
+
+            }
+          ];
+        }
+        else if (data === '4') {
+          this.pageTitle="Japanese Art at Dartmouth";
+          this.pageData = [
+            {
+              "header": "1964-65, Japan: Classical and Contemporary",
+              "image": "./assets/ClassicalandContemporary_Japan_Part1.jpg",
+              "text": "Dartmouth hosted a series of events in 1964-65 to celebrate Japanese culture and illustrate the passage of “Japanese civilization from tradition to modernity.” The year-long program was called “Japan: Classical and Contemporary” and involved various campus institutions. The Hopkins Center hosted an extensive series of presentations of Japanese drama, films, music, paintings, ceramics, photographs and other art forms. "
+            },
+            {
+              "header": "1964-65, Japan: Classical and Contemporary",
+              "image": "./assets/ClassicalandContemporary_Japan_Part2.jpg",
+              "text": "The set of presentations included a traditional Japanese garden installed in the sculpture court at the Hopkins Center. The garden was made from the native rocks of New Hampshire and was designed by Kaneji Domoto of New Rochelle, NY. Further, the programming also included an exhibition of works by Aiko MIyawaki, a young New York based Japanese artist. Her works had traveled the world and she was known for achieving three-dimensional effect by using unusual media - in an instance, she mixed oil paint with marble dust.  A full calendar of events can be seen here."
+            },
+            {
+              "header": "1964-65, Japan: Classical and Contemporary",
+              "image": "./assets/ClassicalandContemporary_Japan_Part3.jpg",
+              "text": ""
+            },
+            {
+              "header": "1964-65, Japan: Classical and Contemporary",
+              "image": "./assets/ClassicalandContemporary_Japan_Part4.jpg",
+              "text": ""
+            },
+            {
+              "header": "1964-65, Japan: Classical and Contemporary",
+              "image": "./assets/ClassicalandContemporary_Japan_Part5.jpg",
+              "text": ""
+            },
+            {
+              "header": "October 1987, Sinkai Jukoh at the Center Theater",
+              "image": "./assets/SinkaiJukoh_Part1.jpg",
+              "text": "During the fall of 1987, Japanese Butoh group Sinkai Juku led by Ushio Amagatsu performed “The Cumquat Seed - A Young Boy's Dream on the Origins of Life and Death” as a continuous, meditative piece carried out in seven episodes. Butoh as a dance movement emerged in the 1960s as a medium of protest and an expression of a sense of despair in the face of the threat of nuclear warfare. "
+            },
+            {
+              "header": "October 1987, Sinkai Jukoh at the Center Theater",
+              "image": "./assets/SinkaiJukoh_Part2.jpg",
+              "text": "The movement was a result of the tensions of the cold war, however, it was interpreted by Sinkai Juku as a contemplative medium. The performance dwelled on human instincts and divorced itself from the synthetic and highly choreographed qualities of the western forms of dance. Sinkai Juku’s Butoh embraced the natural weight of flesh and the phenomenon of gravity. The group’s performance inspired a moment of introspection into the politics of the time. Here is a student’s account of the performance as published in The Dartmouth"
+            },
+            {
+              "header": "April 3, 2003, Ku Na’uka Theater Company at Dartmouth",
+              "image": "./assets/KuNaukaTheaterCompany.jpg",
+              "text": "Ku Na’uka contemporary theater company led by Satoshi Miyagi staged a production of Kyoka Izumi’s play “ Tensho Monogatori” (“The Castle Tower”) in Moore Theater on the 3rd of April, 2003. The production used the bunraku style of puppet theater where the actions are performed through a puppet and the lines are delivered by a narrator. Director Miyagi while speaking of the show said, “to meet others it ot be astonished at the differences and then to try to search for the similarities.” The production was highly stylized and expressed forms of love through quiet fluid motion and mask-like faces."
+            },
+            {
+              "header": "March 8, 2009, San Jose Taiko at Moore Theater",
+              "image": "./assets/SanJoseTaiko.jpg",
+              "text": "In a unique construction, San Jose Taiko presented a Taiko drumming show infused with an American style at the Moore Theater. This modern ensemble form of Taiko drumming is known as Kumidaiko and it emerged in the wake of the second world war. San Jose Taiko consisted of third generation Japanese American members and sought to represent the experience of Japanese Americans. The group was founded in 1973 and is one of the oldest North American Taiko groups. "
+            },
+            {
+              "header": "Bibliography",
+              "image": "",
+              "text":   "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" Churchill Lathrop papers, MS-1141, Box - 4. Rauner Library Archives and Manuscripts " +"<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/2/resources/312'> https://archives-manuscripts.dartmouth.edu/repositories/2/resources/312 </a></p>" +
+              "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" Butoh, an art of intuition; Article by: Liz Klein; Page No: 12, 1987-10-01. The Dartmouth, Index for 1987, TD-1987. The Dartmouth Index " +"<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/628854'> https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/628854 </a></p>" +
+              "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" Ku na'uka tells a complex tale; Article by: Shaffer, Holly; Page No: 7, 2003-04-04. The Dartmouth, Index for 2003, TD-2003. The Dartmouth Index. " +"<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/673894'> https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/673894</a></p>" +
+              "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" San jose taiko to fuse western and japanese beats at hop; Article by: Zhang, Fan; Page No: 7, 2009-03-05. The Dartmouth, Index for 2009, TD-2009. The Dartmouth Index. " +"<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/685661'> https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/685661</a></p>" 
+            },
           ];
         }
     this.modal.style.display = "flex";
     this.dataReady.emit(this.pageData);
   }
+  
 
   closeModal() {
     this.modal.style.display = "none";

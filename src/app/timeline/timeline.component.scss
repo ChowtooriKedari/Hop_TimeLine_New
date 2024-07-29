@@ -100,15 +100,16 @@
 }
 
 .card .heading{
-  padding:10px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .card .subText{
   font-size: 12px;
   text-align:justify; 
-  padding:5px;
+  padding-left:5px;
+  padding-right: 5px;
   height:250px;
+  font-style: italic;
 }
 
 .card .readmore

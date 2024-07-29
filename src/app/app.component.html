@@ -5,6 +5,46 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 </head>
 <style>
+    .hamburger {
+      display: none;
+      cursor: pointer;
+      font-size: 24px;
+    }
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+    }
+    .mobile-menu li {
+      margin: 10px 0;
+    }
+    @media (max-width: 768px) {
+      .row{
+        display: flex !important;
+      }
+      .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+      .main-menu-container{
+        display:flex;
+      }
+      .menu {
+        display: none;
+      }
+      .hamburger {
+        display: block;
+        position:relative;
+      }
+      .mobile-menu {
+        display: none;
+      }
+    }
 </style>
 
 <div class="popup-overlay" *ngIf="isVisible">
@@ -29,20 +69,22 @@ class="site-header sticky--scrolling-up">
           <div class="all-nav-container">
             <div class="main-menu-container">
               <nav id="main-menu" class="navigation" role="navigation">
-  <ul class="menu">
-    <li class="first expanded menu-mlid-3332 menu__top-level has-ul">
-    <span class="dropmenu-toggle">Live Events</span>
-   </li>
-<li class="expanded menu-mlid-3333 menu__top-level has-ul"><span class="dropmenu-toggle">Film</span>
-</li>
-<li class="expanded menu-mlid-3334 menu__top-level has-ul"><span class="dropmenu-toggle">Students</span>
-</li>
-<li class="expanded menu-mlid-3335 menu__top-level has-ul"><span class="dropmenu-toggle">Projects &amp; Ideas</span>
-</li>
-<li class="last expanded menu-mlid-3336 menu__top-level has-ul"><span class="dropmenu-toggle">Membership</span>
-</li>
-</ul>
-</nav>
+               <ul class="menu">
+                <li class="expanded menu-mlid-3333 menu__top-level has-ul"><span class="dropmenu-toggle" (click)="scrollToSection('art-history')">Art History</span></li>
+                <li class="expanded menu-mlid-3334 menu__top-level has-ul"><span class="dropmenu-toggle" (click)="scrollToSection('contact-us')">Contact Us</span></li>
+               </ul>
+               <li class="hamburger" id="hamburger" (click)="toggleMobileMenu()">
+                 <i class="bi bi-list"></i>
+               </li>
+              </nav>
+              <div class="mobile-menu" id="mobile-menu"  role="navigation">
+                <li class="expanded menu-mlid-3333 menu__top-level has-ul">
+                  <span class="dropmenu-toggle" (click)="scrollToSection('art-history')">Art History</span>
+                </li>
+                <li class="expanded menu-mlid-3334 menu__top-level has-ul">
+                  <span class="dropmenu-toggle" (click)="scrollToSection('contact-us')">Contact Us</span>
+                </li>
+              </div>
             </div>
           </div>
         </div>
@@ -50,7 +92,6 @@ class="site-header sticky--scrolling-up">
     </div>
   </header>
 
-<app-home></app-home>
-<!-- <app-test></app-test> -->
-<app-timeline></app-timeline>
-<app-footer></app-footer>
+<app-home id="home"></app-home>
+<app-timeline id="art-history"></app-timeline>
+<app-footer id="contact-us"></app-footer>

@@ -59,6 +59,11 @@
         padding-top: 10px;
         box-sizing: border-box;
         border-top: solid 1px #F4E8D7;
+        padding-left:10px;
+        margin-right: 10px;
+      }
+      .page-text .p{
+      overflow-wrap: break-word !important;
       }
   
       .page-footer {
@@ -92,6 +97,7 @@
       background-color: #E3D0B5;
       color:  #785E3A;
       border: solid 1px #998466;
+
   
       h2 {
         text-align: center;
@@ -100,7 +106,7 @@
       }
   
       &.page-cover-top {
-        box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4)
       }
   
       &.page-cover-bottom {
