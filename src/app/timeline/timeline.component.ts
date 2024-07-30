@@ -197,28 +197,43 @@ export class TimelineComponent implements OnInit {
             },
             {
               "header": "March 16, 1973, Tides change",
-              "image": "./assets/TidesChange_Part1.png",
+              "image": "",
               "text": "Two centuries after the first appearance of Native Americans in Arts on campus, a set of letters from Peter Smith who worked at the Hopkins Center for the Arts foreshadow a more positive future. The letter shown here was sent to a Stu Tonemah with President Kemeny copied on it. The letter discusses the Hop’s willingness and hope to host Native American artists."
             },
             {
               "header": "March 16, 1973, Tides change",
-              "image": "./assets/TidesChange_Part2.png",
+              "image": "./assets/TidesChange_Part1.png",
               "text": "The letter outlines the Hop’s ambition of hosting a Native American artist for each of the three terms. Further, Peter Smith lays down other prospective Native American art events that can be hosted by the Hop. Such a vast breadth of prospective events reflects a willingness for change and growing positive representation of Native Americans on campus. This moment also signifies the agency that Native American artists had won for themselves through the verve of their art and the rigor of their struggle."
+            },
+            {
+              "header": "March 16, 1973, Tides change",
+              "image": "./assets/TidesChange_Part2.png",
+              "text": ""
+            },
+            {
+              "header": "Allan Houser, 1979",
+              "image": "",
+              "text": "Native American history has been one of oppression, attempted annihilation and destruction of cultural markers. Such a fraught memory has informed Native American art since the start of the colonial period. Allan C. Houser, the artist-in-residence at the Hopkins Center for the year 1979, represents such an instance of an artist shining through their life of resistance to oppression. A group of Chiricahua tribe members were imprisoned for staging a resistance movement in 1886. One of the first Chiricahua tribe members born out of captivity was Allan C. Houser. Houser’s modernist sculpting work captured sensibilities nationally and marked a moment of robust Native American agency in art. Allan C. Houser’s residency on campus lives past his life as one of his sculpture’s called Peaceful Serenity stands on the lawn in front of the Native American Studies Program Building."
             },
             {
               "header": "Allan Houser, 1979",
               "image": "./assets/allenhouser.png",
-              "text": "Native American history has been one of oppression, attempted annihilation and destruction of cultural markers. Such a fraught memory has informed Native American art since the start of the colonial period. Allan C. Houser, the artist-in-residence at the Hopkins Center for the year 1979, represents such an instance of an artist shining through their life of resistance to oppression. A group of Chiricahua tribe members were imprisoned for staging a resistance movement in 1886. One of the first Chiricahua tribe members born out of captivity was Allan C. Houser. Houser’s modernist sculpting work captured sensibilities nationally and marked a moment of robust Native American agency in art. Allan C. Houser’s residency on campus lives past his life as one of his sculpture’s called Peaceful Serenity stands on the lawn in front of the Native American Studies Program Building."
+              "text": ""
             },
             {
               "header": "October 3, 1992, American Indian Dance Theater",
-              "image": "./assets/AmericanIndianDanceTheatre_Part1.jpg",
+              "image": "",
               "text": "In the fall of 1992, the Hop commissioned the American Indian Dance Theater for a performance that reflected the Native American dance and musical forms indigenous to the New England region. The American Indian Dance Theater group was a historically significant dance troupe that was both critically acclaimed and commercially successful. It was the first Native American dance troupe to have its own national television special."
             },
             {
               "header": "October 3, 1992, American Indian Dance Theater",
-              "image": "./assets/AmericanIndianDanceTheatre_Part2.jpg",
+              "image": "./assets/AmericanIndianDanceTheatre_Part1.jpg",
               "text": "The performance highlighted the intergenerational relationship between members of the Native American community. The show opened with the elders remembering their traditional ways and passing them down to the younger generations. The intergenerational coalition of artists showcased a broad diversity of aspects of Native American communal living. Further, the outfits worn by each performer were either self-made or by members of their family. The company members were proficient artisans that specialized in a variety of crafts like jewelry making, metalworks etc. "
+            },
+            {
+              "header": "October 3, 1992, American Indian Dance Theater",
+              "image": "./assets/AmericanIndianDanceTheatre_Part2.jpg",
+              "text": ""
             },
             {
               "header": "October 3, 1992, American Indian Dance Theater",
@@ -297,23 +312,38 @@ export class TimelineComponent implements OnInit {
             },
             {
               "header": "October 1987, Sinkai Jukoh at the Center Theater",
-              "image": "./assets/SinkaiJukoh_Part1.jpg",
+              "image": "",
               "text": "During the fall of 1987, Japanese Butoh group Sinkai Juku led by Ushio Amagatsu performed “The Cumquat Seed - A Young Boy's Dream on the Origins of Life and Death” as a continuous, meditative piece carried out in seven episodes. Butoh as a dance movement emerged in the 1960s as a medium of protest and an expression of a sense of despair in the face of the threat of nuclear warfare. "
             },
             {
               "header": "October 1987, Sinkai Jukoh at the Center Theater",
-              "image": "./assets/SinkaiJukoh_Part2.jpg",
+              "image": "./assets/SinkaiJukoh_Part1.jpg",
               "text": "The movement was a result of the tensions of the cold war, however, it was interpreted by Sinkai Juku as a contemplative medium. The performance dwelled on human instincts and divorced itself from the synthetic and highly choreographed qualities of the western forms of dance. Sinkai Juku’s Butoh embraced the natural weight of flesh and the phenomenon of gravity. The group’s performance inspired a moment of introspection into the politics of the time. Here is a student’s account of the performance as published in The Dartmouth"
+            },
+            {
+              "header": "October 1987, Sinkai Jukoh at the Center Theater",
+              "image": "./assets/SinkaiJukoh_Part2.jpg",
+              "text": ""
+            },
+            {
+              "header": "April 3, 2003, Ku Na’uka Theater Company at Dartmouth",
+              "image": "",
+              "text": "Ku Na’uka contemporary theater company led by Satoshi Miyagi staged a production of Kyoka Izumi’s play “ Tensho Monogatori” (“The Castle Tower”) in Moore Theater on the 3rd of April, 2003. The production used the bunraku style of puppet theater where the actions are performed through a puppet and the lines are delivered by a narrator. Director Miyagi while speaking of the show said, “to meet others it ot be astonished at the differences and then to try to search for the similarities.” The production was highly stylized and expressed forms of love through quiet fluid motion and mask-like faces."
             },
             {
               "header": "April 3, 2003, Ku Na’uka Theater Company at Dartmouth",
               "image": "./assets/KuNaukaTheaterCompany.jpg",
-              "text": "Ku Na’uka contemporary theater company led by Satoshi Miyagi staged a production of Kyoka Izumi’s play “ Tensho Monogatori” (“The Castle Tower”) in Moore Theater on the 3rd of April, 2003. The production used the bunraku style of puppet theater where the actions are performed through a puppet and the lines are delivered by a narrator. Director Miyagi while speaking of the show said, “to meet others it ot be astonished at the differences and then to try to search for the similarities.” The production was highly stylized and expressed forms of love through quiet fluid motion and mask-like faces."
+              "text": ""
+            },
+            {
+              "header": "March 8, 2009, San Jose Taiko at Moore Theater",
+              "image": "",
+              "text": "In a unique construction, San Jose Taiko presented a Taiko drumming show infused with an American style at the Moore Theater. This modern ensemble form of Taiko drumming is known as Kumidaiko and it emerged in the wake of the second world war. San Jose Taiko consisted of third generation Japanese American members and sought to represent the experience of Japanese Americans. The group was founded in 1973 and is one of the oldest North American Taiko groups. "
             },
             {
               "header": "March 8, 2009, San Jose Taiko at Moore Theater",
               "image": "./assets/SanJoseTaiko.jpg",
-              "text": "In a unique construction, San Jose Taiko presented a Taiko drumming show infused with an American style at the Moore Theater. This modern ensemble form of Taiko drumming is known as Kumidaiko and it emerged in the wake of the second world war. San Jose Taiko consisted of third generation Japanese American members and sought to represent the experience of Japanese Americans. The group was founded in 1973 and is one of the oldest North American Taiko groups. "
+              "text": ""
             },
             {
               "header": "Bibliography",
@@ -323,6 +353,46 @@ export class TimelineComponent implements OnInit {
               "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" Ku na'uka tells a complex tale; Article by: Shaffer, Holly; Page No: 7, 2003-04-04. The Dartmouth, Index for 2003, TD-2003. The Dartmouth Index. " +"<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/673894'> https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/673894</a></p>" +
               "<p style='font-size:0.8em;margin-right: 20px; overflow-wrap: break-word !important; padding-right: 20px !important; word-break: break-word; hyphens: auto; white-space: pre-wrap;'>" +" San jose taiko to fuse western and japanese beats at hop; Article by: Zhang, Fan; Page No: 7, 2009-03-05. The Dartmouth, Index for 2009, TD-2009. The Dartmouth Index. " +"<a style=\"color:blue\" href= 'https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/685661'> https://archives-manuscripts.dartmouth.edu/repositories/5/archival_objects/685661</a></p>" 
             },
+          ];
+        }
+        else if (data === '5') {
+          this.pageTitle="Dartmouth’s Impact as a Regional Arts Center";
+          this.pageData = [
+            {
+              "header": "Sept 29, 1987, Hop from conception to creation",
+              "image": "./assets/DartmouthImpactRegionalArtsCenter_Part1.jpg",
+              "text": "The goals for the center were to bring drama, music, student workshops and the arts together in a mutually advantageous relationship. Initial plans included social rooms for students, faculty, and residents of the area in order to bring members of the community closer to the arts. Nelson Rockefeller at the Hop’s opening: “The Hopkins Center is a symbol of Dartmouth’s leadership in a cultural movement which is taking place all over the country”"
+              },
+            {
+              "header": "Sept 29, 1987, Hop from conception to creation",
+              "image": "./assets/DartmouthImpactRegionalArtsCenter_Part2.jpg",
+              "text": ""
+            },
+            {
+              "header": "Sept 29, 1987, Hop from conception to creation",
+              "image": "./assets/DartmouthImpactRegionalArtsCenter_Part3.jpg",
+              "text": ""
+            },  
+            {
+              "header": "Sept 29, 1987, Hop from conception to creation",
+              "image": "./assets/DartmouthImpactRegionalArtsCenter_Part4.jpg",
+              "text": ""
+            },  
+            {
+              "header": "Oct 1, 1987, The Hop: Its role for the next 25 years",
+              "image": "",
+              "text": "President Stanfill: “ It really is a regional arts center”. Professor Churchill Lathrop, director of Hop’s Arts Galleries: “Other schools wanted to know how we did this”; “one great advantage in that ours is right in the center of everything and so it exerts a bigger interest to a wider audience”"
+            },  
+            {
+              "header": "Oct 1, 1987, The Hop: Its role for the next 25 years",
+              "image": "./assets/Hop25years.jpg",
+              "text": ""
+            },  
+            {
+              "header": "July 1983, Celebration Northeast at the Hop",
+              "image": "./assets/CelebrationNortheastatHop.jpg",
+              "text": ""
+            },  
           ];
         }
     this.modal.style.display = "flex";
