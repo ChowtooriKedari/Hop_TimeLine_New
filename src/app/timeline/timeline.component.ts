@@ -356,7 +356,7 @@ export class TimelineComponent implements OnInit {
           ];
         }
         else if (data === '5') {
-          this.pageTitle="Dartmouth’s Impact as a Regional Arts Center";
+          this.pageTitle="HOP’s Impact as a Regional Arts Center";
           this.pageData = [
             {
               "header": "Sept 29, 1987, Hop from conception to creation",
