@@ -361,7 +361,9 @@ export class TimelineComponent implements OnInit {
             {
               "header": "Sept 29, 1987, Hop from conception to creation",
               "image": "./assets/DartmouthImpactRegionalArtsCenter_Part1.jpg",
-              "text": "The goals for the center were to bring drama, music, student workshops and the arts together in a mutually advantageous relationship. Initial plans included social rooms for students, faculty, and residents of the area in order to bring members of the community closer to the arts. Nelson Rockefeller at the Hop’s opening: “The Hopkins Center is a symbol of Dartmouth’s leadership in a cultural movement which is taking place all over the country”"
+              "text": "<p>The goals for the center were to bring drama, music, student workshops and the arts together in a mutually advantageous relationship.<p><br>"+
+               "<p>Initial plans included social rooms for students, faculty, and residents of the area in order to bring members of the community closer to the arts.</p><br>"+
+                "<p>Nelson Rockefeller at the Hop’s opening: “The Hopkins Center is a symbol of Dartmouth’s leadership in a cultural movement which is taking place all over the country”</p>"
               },
             {
               "header": "Sept 29, 1987, Hop from conception to creation",
@@ -381,7 +383,7 @@ export class TimelineComponent implements OnInit {
             {
               "header": "Oct 1, 1987, The Hop: Its role for the next 25 years",
               "image": "",
-              "text": "President Stanfill: “ It really is a regional arts center”. Professor Churchill Lathrop, director of Hop’s Arts Galleries: “Other schools wanted to know how we did this”; “one great advantage in that ours is right in the center of everything and so it exerts a bigger interest to a wider audience”"
+              "text": "President Stanfill: “ It really is a regional arts center”. <br> Professor Churchill Lathrop, director of Hop’s Arts Galleries: “Other schools wanted to know how we did this”; “one great advantage in that ours is right in the center of everything and so it exerts a bigger interest to a wider audience”"
             },  
             {
               "header": "Oct 1, 1987, The Hop: Its role for the next 25 years",
