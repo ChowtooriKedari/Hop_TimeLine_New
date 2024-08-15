@@ -9,7 +9,7 @@ import { Book } from './book.model';
 export class BooksComponent implements OnInit, AfterViewInit {
   books: Book[] = [];
   rows: Book[][] = [];
-  n: number = 15; // Number of columns
+  n: number = 10; // Number of columns
   m: number = 3;  // Number of rows
 
   modal: any;
