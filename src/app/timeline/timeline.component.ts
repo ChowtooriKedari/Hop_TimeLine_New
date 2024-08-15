@@ -18,12 +18,6 @@ export class TimelineComponent implements OnInit {
     "text": "",
   }];
   pageTitle="";
-  userTestStatus = [
-    { "id": 0, "name": "Available" },
-    { "id": 1, "name": "Ready" },
-    { "id": 2, "name": "Started" }
-  ];
-
   constructor() { }
 
   ngOnInit(): void {

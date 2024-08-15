@@ -1,1 +1,34 @@
-<p>books works!</p>
+<div class="bookshelf">
+  <div class="shelf-row" *ngFor="let row of rows">
+      <div
+          class="book-spine"
+          *ngFor="let book of row"
+          [class.unavailable]="!book.isAvailable"
+          [ngClass]="book.positionClass"
+          [ngStyle]="{'background': book.color}"
+          (click)="book.isAvailable ? onBookClick(book) : null"
+      >
+          <div class="book-title" [ngClass]="{'horizontal': book.orientation === 'horizontal', 'vertical': book.orientation === 'vertical'}">{{ book.title }}</div>
+          <div class="crease"></div>
+          <div class="book-decoration" *ngFor="let decoration of book.decoration">
+              <img src="{{ decoration }}" alt="Decoration" />
+          </div>
+          <div class="book-image">
+              <img src="{{ book.image }}" alt="{{ book.title }}" />
+          </div>
+          <!-- Lock overlay for unavailable books -->
+          <div *ngIf="!book.isAvailable" class="lock-overlay">
+              <i class="fa fa-lock"></i> <!-- FontAwesome lock icon -->
+          </div>
+      </div>
+      <!-- Divider between rows -->
+      <div class="shelf-divider" *ngIf="row !== rows[rows.length - 1]"></div>
+  </div>
+
+</div>
+<div id="myModal" class="modal">
+  <span class="close" (click)="closeModal()"><i class="bi bi-x-circle"></i></span>
+  <div  id="flipbook" class="flipbook">
+    <app-flipbook [pageTitle]="pageTitle" [pageData]="pageData"></app-flipbook>
+  </div>
+</div>
